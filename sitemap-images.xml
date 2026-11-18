@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+  <url>
+    <loc>https://imsuleman-10.github.io/</loc>
+    <image:image>
+      <image:loc>https://imsuleman-10.github.io/gallery/suleman-zaheer-software-engineer-writer-lahore.jpeg</image:loc>
+      <image:title>Suleman Zaheer — Lead Software Engineer, Systems Architect and Author</image:title>
+      <image:caption>Suleman Zaheer (سلیمان ظہیر) — Founder and CEO of SAMStack Tech and Creator of SamToolbox in Lahore, Pakistan</image:caption>
+      <image:geo_location>Shahdara Town, Lahore, Punjab, Pakistan</image:geo_location>
+      <image:license>https://creativecommons.org/licenses/by-nc-sa/4.0/</image:license>
+    </image:image>
+    <image:image>
+      <image:loc>https://imsuleman-10.github.io/gallery/suleman-zaheer-1792743015157.jpg</image:loc>
+      <image:title>Suleman Zaheer — Systems Architect and Full-Stack Engineer Portrait</image:title>
+      <image:caption>Suleman Zaheer portrait in Lahore, Pakistan</image:caption>
+      <image:geo_location>Lahore, Pakistan</image:geo_location>
+      <image:license>https://creativecommons.org/licenses/by-nc-sa/4.0/</image:license>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://imsuleman-10.github.io/photos/</loc>
+    <image:image>
+      <image:loc>https://imsuleman-10.github.io/gallery/suleman-zaheer-software-engineer-writer-lahore.jpeg</image:loc>
+      <image:title>Suleman Zaheer Official Executive Portrait — Lahore, Pakistan</image:title>
+      <image:caption>Muhammad Suleman Zaheer Mughal, Lead Software Engineer, Systems Architect, and Urdu Literary Author</image:caption>
+      <image:geo_location>Shahdara Town, Lahore, Punjab, Pakistan</image:geo_location>
+      <image:license>https://creativecommons.org/licenses/by-nc-sa/4.0/</image:license>
+    </image:image>
+    <image:image>
+      <image:loc>https://imsuleman-10.github.io/gallery/suleman-zaheer-1793629213878.png</image:loc>
+      <image:title>Suleman Zaheer — High Resolution Official Portrait</image:title>
+      <image:caption>Suleman Zaheer, technology entrepreneur and founder</image:caption>
+      <image:geo_location>Lahore, Pakistan</image:geo_location>
+      <image:license>https://creativecommons.org/licenses/by-nc-sa/4.0/</image:license>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://imsuleman-10.github.io/wiki/</loc>
+    <image:image>
+      <image:loc>https://imsuleman-10.github.io/gallery/suleman-zaheer-software-engineer-writer-lahore.jpeg</image:loc>
+      <image:title>Suleman Zaheer Wikipedia Article Infobox Image</image:title>
+      <image:caption>Suleman Zaheer — Encyclopedic entry portrait</image:caption>
+      <image:geo_location>Lahore, Pakistan</image:geo_location>
+      <image:license>https://creativecommons.org/licenses/by-nc-sa/4.0/</image:license>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://imsuleman-10.github.io/about/</loc>
+    <image:image>
+      <image:loc>https://imsuleman-10.github.io/gallery/suleman-zaheer-software-engineer-writer-lahore.jpeg</image:loc>
+      <image:title>Suleman Zaheer Biography and Career Dossier</image:title>
+      <image:caption>Muhammad Suleman Zaheer Mughal professional biography portrait</image:caption>
+      <image:geo_location>Lahore, Pakistan</image:geo_location>
+      <image:license>https://creativecommons.org/licenses/by-nc-sa/4.0/</image:license>
+    </image:image>
+  </url>
+</urlset>

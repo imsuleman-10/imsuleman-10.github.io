@@ -1,0 +1,21 @@
+{
+  "name": "Suleman Zaheer — Enterprise Knowledge Graph & Profile",
+  "short_name": "Suleman Zaheer",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#0284c7",
+  "description": "Official enterprise portal, Wikipedia biographical dossier, and technical knowledge graph for Suleman Zaheer.",
+  "icons": [
+    {
+      "src": "/favicon.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/sfavicon.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}

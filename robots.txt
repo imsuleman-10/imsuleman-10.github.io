@@ -1,0 +1,77 @@
+# ==============================================================================
+# Enterprise robots.txt for https://imsuleman-10.github.io/
+# Multi-Engine & Multi-Agent Crawl Directive (Google, Bing, Perplexity, GPTBot, ClaudeBot)
+# ==============================================================================
+
+User-agent: *
+Allow: /
+Allow: /gallery/
+Allow: /about/
+Allow: /wiki/
+Allow: /photos/
+Allow: /llms.txt
+Allow: /llms-full.txt
+Allow: /assets/
+Allow: /sitemap.xml
+Allow: /sitemap-images.xml
+
+# OpenAI Crawlers (ChatGPT Search, GPTBot, OAI-SearchBot)
+User-agent: GPTBot
+Allow: /
+
+User-agent: OAI-SearchBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+# Anthropic Crawlers (Claude, ClaudeBot)
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: anthropic-ai
+Allow: /
+
+# Perplexity AI Engine
+User-agent: PerplexityBot
+Allow: /
+
+# Google Search & Gemini Extended
+User-agent: Googlebot
+Allow: /
+
+User-agent: Googlebot-Image
+Allow: /gallery/
+Allow: /photos/
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+# Apple AI & Search
+User-agent: Applebot
+Allow: /
+
+User-agent: Applebot-Extended
+Allow: /
+
+# Microsoft Bing & Copilot
+User-agent: Bingbot
+Allow: /
+
+# Meta & ByteDance
+User-agent: FacebookBot
+Allow: /
+
+User-agent: Bytespider
+Allow: /
+
+User-agent: CCBot
+Allow: /
+
+User-agent: Cohere-ai
+Allow: /
+
+# Master Sitemaps
+Sitemap: https://imsuleman-10.github.io/sitemap.xml
+Sitemap: https://imsuleman-10.github.io/sitemap-images.xml
