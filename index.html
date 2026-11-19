@@ -289,10 +289,10 @@
       --shadow-xl: 0 20px 60px rgba(0,0,0,.15);
       --transition: all .25s cubic-bezier(.4,0,.2,1);
       --font-sans: 'Plus Jakarta Sans', 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
-      /* Aura ring colors (light theme adaptation) */
-      --ring-primary: #2563eb;
-      --ring-secondary: #8b5cf6;
-      --ring-tertiary: #10b981;
+      /* Aura ring colors (dark, visible) */
+      --ring-primary: #1d4ed8;
+      --ring-secondary: #6d28d9;
+      --ring-tertiary: #047857;
     }
 
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
@@ -425,10 +425,41 @@
     }
     .nav { display: flex; align-items: center; justify-content: space-between; height: 70px; }
     .nav-logo {
-      font-size: 1.35rem; font-weight: 800; letter-spacing: -.03em;
-      color: var(--slate-900);
+      font-size: 1.2rem; font-weight: 800; letter-spacing: -.03em;
+      color: var(--slate-900); text-decoration: none;
+      display: flex; align-items: center; gap: .5rem;
+      position: relative;
     }
-    .nav-logo span { color: var(--blue-600); }
+    .nav-logo-badge {
+      display: inline-flex; align-items: center; justify-content: center;
+      width: 32px; height: 32px;
+      background: linear-gradient(135deg, #1d4ed8, #6d28d9);
+      color: #fff; border-radius: 8px;
+      font-size: .78rem; font-weight: 900; letter-spacing: 0;
+      box-shadow: 0 2px 10px rgba(29,78,216,.35);
+      animation: navBadgePulse 3s ease-in-out infinite;
+      flex-shrink: 0;
+    }
+    @keyframes navBadgePulse {
+      0%,100% { box-shadow: 0 2px 10px rgba(29,78,216,.35); }
+      50%      { box-shadow: 0 2px 18px rgba(109,40,217,.5); }
+    }
+    .nav-logo-name {
+      display: flex; align-items: baseline; gap: .18em;
+    }
+    .nav-logo-first {
+      background: linear-gradient(90deg, #1d4ed8, #6d28d9, #1d4ed8);
+      background-size: 200% auto;
+      -webkit-background-clip: text; -webkit-text-fill-color: transparent;
+      background-clip: text;
+      animation: navShimmer 3s linear infinite;
+    }
+    @keyframes navShimmer {
+      0%   { background-position: 0% center; }
+      100% { background-position: 200% center; }
+    }
+    .nav-logo-dot { color: #6d28d9; -webkit-text-fill-color: #6d28d9; font-size: 1.3em; line-height: 0; }
+    .nav-logo-last { color: var(--slate-700); -webkit-text-fill-color: var(--slate-700); font-weight: 700; }
     .nav-menu { display: flex; align-items: center; list-style: none; gap: .25rem; }
     .nav-link {
       font-size: .9rem; font-weight: 500; color: var(--slate-500);
@@ -547,35 +578,39 @@
     .ring1 {
       width: 296px; height: 296px;
       border: 1.5px solid var(--ring-primary);
-      box-shadow: 0 0 6px rgba(37,99,235,.25);
+      box-shadow: 0 0 10px rgba(29,78,216,.55), 0 0 2px rgba(29,78,216,.8);
       animation: spin1 9s linear infinite, pulse-ring 2s 0s infinite ease-in-out;
     }
     .ring2 {
       width: 320px; height: 320px;
       border: 1.5px solid var(--ring-secondary);
-      box-shadow: 0 0 5px rgba(139,92,246,.2);
+      box-shadow: 0 0 9px rgba(109,40,217,.5), 0 0 2px rgba(109,40,217,.75);
       animation: spin2 12s linear infinite, pulse-ring 2s .4s infinite ease-in-out;
     }
     .ring3 {
       width: 344px; height: 344px;
       border: 1.5px dashed var(--ring-tertiary);
-      opacity: .8;
+      box-shadow: 0 0 8px rgba(4,120,87,.45);
+      opacity: .9;
       animation: spin3 15s linear infinite, pulse-ring 2s .8s infinite ease-in-out;
     }
     .ring4 {
       width: 368px; height: 368px;
-      border: 1.5px solid rgba(37,99,235,.5);
+      border: 1.5px solid rgba(29,78,216,.65);
+      box-shadow: 0 0 7px rgba(29,78,216,.4);
       animation: spin4 10s linear infinite, pulse-ring 2s .2s infinite ease-in-out;
     }
     .ring5 {
       width: 392px; height: 392px;
-      border: 1.5px solid rgba(139,92,246,.4);
+      border: 1.5px solid rgba(109,40,217,.55);
+      box-shadow: 0 0 7px rgba(109,40,217,.35);
       animation: spin5 13s linear infinite, pulse-ring 2s .6s infinite ease-in-out;
     }
     .ring6 {
       width: 416px; height: 416px;
-      border: 1.5px dashed rgba(16,185,129,.35);
-      opacity: .7;
+      border: 1.5px dashed rgba(4,120,87,.5);
+      box-shadow: 0 0 6px rgba(4,120,87,.3);
+      opacity: .85;
       animation: spin6 17s linear infinite, pulse-ring 2s 1s infinite ease-in-out;
     }
 
@@ -944,8 +979,18 @@
       display: flex; justify-content: space-between; align-items: center;
       flex-wrap: wrap; gap: 1rem;
     }
-    .footer-logo { font-size: 1.1rem; font-weight: 800; color: var(--white); letter-spacing: -.02em; }
-    .footer-logo span { color: var(--blue-600); }
+    .footer-logo {
+      font-size: 1.1rem; font-weight: 800; color: var(--white); letter-spacing: -.02em;
+      display: flex; align-items: center; gap: .4rem;
+    }
+    .footer-logo-badge {
+      display: inline-flex; align-items: center; justify-content: center;
+      width: 28px; height: 28px;
+      background: linear-gradient(135deg, #1d4ed8, #6d28d9);
+      color: #fff; border-radius: 7px;
+      font-size: .7rem; font-weight: 900;
+    }
+    .footer-logo-text { opacity: .9; }
     .footer-copy { font-size: .85rem; }
     .footer-links { display: flex; gap: 1.25rem; }
     .footer-links a { font-size: .85rem; color: var(--slate-400); }
@@ -996,16 +1041,89 @@
       .footer-inner { flex-direction: column; text-align: center; }
       .footer-links { justify-content: center; }
     }
+    /* ══════════════════════════════════════════════════════════
+       PRELOADER
+    ══════════════════════════════════════════════════════════ */
+    #preloader {
+      position: fixed; inset: 0; z-index: 99999;
+      background: #0a0f1e;
+      display: flex; flex-direction: column;
+      align-items: center; justify-content: center; gap: 2.5rem;
+      transition: opacity .6s ease, visibility .6s ease;
+    }
+    #preloader.hidden { opacity: 0; visibility: hidden; pointer-events: none; }
+
+    .pre-name {
+      display: flex; gap: 0; align-items: baseline;
+      font-family: 'Inter', sans-serif; font-size: clamp(2rem, 6vw, 3.5rem);
+      font-weight: 900; letter-spacing: .05em; line-height: 1;
+    }
+    .pre-letter {
+      display: inline-block;
+      opacity: 0;
+      transform: translateY(20px);
+      animation: letterDrop .5s ease forwards;
+    }
+    /* each letter gets --d delay set by JS */
+    @keyframes letterDrop {
+      to { opacity: 1; transform: translateY(0); }
+    }
+    /* color cycle for letters */
+    .pre-letter:nth-child(1)  { color: #60a5fa; }
+    .pre-letter:nth-child(2)  { color: #818cf8; }
+    .pre-letter:nth-child(3)  { color: #a78bfa; }
+    .pre-letter:nth-child(4)  { color: #c084fc; }
+    .pre-letter:nth-child(5)  { color: #e879f9; }
+    .pre-letter:nth-child(6)  { color: #f472b6; }
+    .pre-letter:nth-child(7)  { color: #fb923c; }
+    /* space */
+    .pre-letter:nth-child(8)  { color: transparent; width: .4em; }
+    .pre-letter:nth-child(9)  { color: #34d399; }
+    .pre-letter:nth-child(10) { color: #2dd4bf; }
+    .pre-letter:nth-child(11) { color: #38bdf8; }
+    .pre-letter:nth-child(12) { color: #60a5fa; }
+    .pre-letter:nth-child(13) { color: #818cf8; }
+    .pre-letter:nth-child(14) { color: #a78bfa; }
+
+    .pre-bar-wrap {
+      width: min(340px, 70vw); height: 3px;
+      background: rgba(255,255,255,.1); border-radius: 999px; overflow: hidden;
+    }
+    .pre-bar {
+      height: 100%; width: 0%;
+      background: linear-gradient(90deg, #1d4ed8, #6d28d9, #10b981);
+      border-radius: 999px;
+      transition: width .05s linear;
+    }
+    .pre-pct {
+      font-family: 'Inter', sans-serif;
+      font-size: .85rem; font-weight: 600;
+      color: rgba(255,255,255,.45); letter-spacing: .05em;
+    }
   </style>
 </head>
 <body>
+
+  <!-- ══ PRELOADER ══ -->
+  <div id="preloader" role="status" aria-label="Loading Suleman Zaheer">
+    <div class="pre-name" id="preName"></div>
+    <div class="pre-bar-wrap"><div class="pre-bar" id="preBar"></div></div>
+    <div class="pre-pct" id="prePct">0%</div>
+  </div>
 
   <!-- ══════════════════════════════════════════════════════════
        HEADER
   ══════════════════════════════════════════════════════════ -->
   <header class="header" role="banner">
     <div class="container nav">
-      <a href="#home" class="nav-logo">Sam<span>.</span>Dev</a>
+      <a href="#home" class="nav-logo" aria-label="Suleman Zaheer — Home">
+        <span class="nav-logo-badge">SZ</span>
+        <span class="nav-logo-name">
+          <span class="nav-logo-first">Suleman</span>
+          <span class="nav-logo-dot">·</span>
+          <span class="nav-logo-last">Zaheer</span>
+        </span>
+      </a>
       <nav role="navigation" aria-label="Main navigation">
         <ul class="nav-menu" id="navMenu">
           <li><a href="#home"         class="nav-link active">Home</a></li>
@@ -1491,15 +1609,6 @@
           </div>
 
           <div class="achieve-card reveal">
-            <div class="achieve-icon" style="background:#fef3c7; color:#b45309;"><i class="fa-solid fa-award"></i></div>
-            <div>
-              <div class="achieve-year">2024</div>
-              <div class="achieve-title">Hunarmand Pakistan Scholarship</div>
-              <p class="achieve-desc">Awarded the prestigious Hunarmand Pakistan Scholarship in recognition of academic excellence and technical skills.</p>
-            </div>
-          </div>
-
-          <div class="achieve-card reveal">
             <div class="achieve-icon" style="background:#dcfce7; color:#15803d;"><i class="fa-solid fa-code"></i></div>
             <div>
               <div class="achieve-year">2025 — Completed</div>
@@ -1668,7 +1777,10 @@
   <footer class="footer" role="contentinfo">
     <div class="container">
       <div class="footer-inner">
-        <div class="footer-logo">Sam<span>.</span>Dev</div>
+        <div class="footer-logo">
+          <span class="footer-logo-badge">SZ</span>
+          <span class="footer-logo-text">Suleman Zaheer</span>
+        </div>
         <div class="footer-copy">
           © 2026 <a href="https://imsuleman-10.github.io/" style="color:var(--slate-400);">Suleman Zaheer</a>. All rights reserved.
         </div>
@@ -1797,8 +1909,50 @@
       }
       const text = `Hello Suleman Zaheer!\n\nName: ${name}\nEmail: ${email}\nSubject: ${subject || 'General Inquiry'}\n\nMessage:\n${message}\n\n(Sent from imsuleman-10.github.io)`;
       window.open(`https://wa.me/923285778715?text=${encodeURIComponent(text)}`, '_blank');
+    })();
+
+  /* ══════════════════════════════════════════════
+     PRELOADER — letter by letter + progress bar
+  ══════════════════════════════════════════════ */
+  (function() {
+    const name    = 'Suleman Zaheer';
+    const nameEl  = document.getElementById('preName');
+    const barEl   = document.getElementById('preBar');
+    const pctEl   = document.getElementById('prePct');
+    const loader  = document.getElementById('preloader');
+
+    /* Build letter spans */
+    [...name].forEach((ch, i) => {
+      const s = document.createElement('span');
+      s.className = 'pre-letter';
+      s.textContent = ch === ' ' ? '\u00A0' : ch;
+      s.style.animationDelay = (i * 0.08) + 's';
+      nameEl.appendChild(s);
     });
 
+    /* Animate progress bar 0 → 100 */
+    let pct = 0;
+    const totalMs  = 2000;   /* 2 seconds total */
+    const interval = 30;     /* tick every 30ms */
+    const step     = 100 / (totalMs / interval);
+
+    const timer = setInterval(() => {
+      pct = Math.min(100, pct + step + (Math.random() * step * .4));
+      barEl.style.width = pct + '%';
+      pctEl.textContent  = Math.floor(pct) + '%';
+      if (pct >= 100) {
+        clearInterval(timer);
+        barEl.style.width = '100%';
+        pctEl.textContent  = '100%';
+        setTimeout(() => {
+          loader.classList.add('hidden');
+          document.body.style.overflow = '';
+        }, 400);
+      }
+    }, interval);
+
+    /* Prevent scroll while loading */
+    document.body.style.overflow = 'hidden';
   })();
   </script>
 
