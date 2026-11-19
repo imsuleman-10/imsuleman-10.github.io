@@ -1042,73 +1042,102 @@
       .footer-links { justify-content: center; }
     }
     /* ══════════════════════════════════════════════════════════
-       PRELOADER
+       PRELOADER (Light Theme - Industrial & Clean)
     ══════════════════════════════════════════════════════════ */
     #preloader {
       position: fixed; inset: 0; z-index: 99999;
-      background: #0a0f1e;
+      background: #ffffff;
       display: flex; flex-direction: column;
-      align-items: center; justify-content: center; gap: 2.5rem;
-      transition: opacity .6s ease, visibility .6s ease;
+      align-items: center; justify-content: center; gap: 1.8rem;
+      transition: opacity .5s ease, visibility .5s ease;
     }
     #preloader.hidden { opacity: 0; visibility: hidden; pointer-events: none; }
 
+    .pre-badge {
+      display: flex; align-items: center; justify-content: center;
+      width: 58px; height: 58px;
+      background: linear-gradient(135deg, #1d4ed8 0%, #6d28d9 100%);
+      color: #ffffff; border-radius: 16px;
+      font-size: 1.35rem; font-weight: 900; letter-spacing: -.02em;
+      box-shadow: 0 10px 25px -5px rgba(29, 78, 216, 0.4);
+      animation: preBadgePulse 2s ease-in-out infinite;
+    }
+    @keyframes preBadgePulse {
+      0%, 100% { transform: scale(1); box-shadow: 0 10px 25px -5px rgba(29, 78, 216, 0.4); }
+      50%      { transform: scale(1.06); box-shadow: 0 14px 30px -5px rgba(109, 40, 217, 0.55); }
+    }
+
     .pre-name {
       display: flex; gap: 0; align-items: baseline;
-      font-family: 'Inter', sans-serif; font-size: clamp(2rem, 6vw, 3.5rem);
-      font-weight: 900; letter-spacing: .05em; line-height: 1;
+      font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+      font-size: clamp(2.2rem, 5.5vw, 3.4rem);
+      font-weight: 900; letter-spacing: -.02em; line-height: 1.1;
     }
     .pre-letter {
       display: inline-block;
       opacity: 0;
-      transform: translateY(20px);
-      animation: letterDrop .5s ease forwards;
+      transform: translateY(22px) scale(0.9);
+      animation: letterDrop 0.45s cubic-bezier(0.16, 1, 0.3, 1) forwards,
+                 preColorCycle 4s ease-in-out infinite alternate;
     }
-    /* each letter gets --d delay set by JS */
     @keyframes letterDrop {
-      to { opacity: 1; transform: translateY(0); }
+      to { opacity: 1; transform: translateY(0) scale(1); }
     }
-    /* color cycle for letters */
-    .pre-letter:nth-child(1)  { color: #60a5fa; }
-    .pre-letter:nth-child(2)  { color: #818cf8; }
-    .pre-letter:nth-child(3)  { color: #a78bfa; }
-    .pre-letter:nth-child(4)  { color: #c084fc; }
-    .pre-letter:nth-child(5)  { color: #e879f9; }
-    .pre-letter:nth-child(6)  { color: #f472b6; }
-    .pre-letter:nth-child(7)  { color: #fb923c; }
-    /* space */
-    .pre-letter:nth-child(8)  { color: transparent; width: .4em; }
-    .pre-letter:nth-child(9)  { color: #34d399; }
-    .pre-letter:nth-child(10) { color: #2dd4bf; }
-    .pre-letter:nth-child(11) { color: #38bdf8; }
-    .pre-letter:nth-child(12) { color: #60a5fa; }
-    .pre-letter:nth-child(13) { color: #818cf8; }
-    .pre-letter:nth-child(14) { color: #a78bfa; }
+    @keyframes preColorCycle {
+      0%   { filter: hue-rotate(0deg); }
+      50%  { filter: hue-rotate(75deg); }
+      100% { filter: hue-rotate(150deg); }
+    }
 
+    /* Vibrant, deep, high-contrast colors on pure light background */
+    .pre-letter:nth-child(1)  { color: #1d4ed8; }
+    .pre-letter:nth-child(2)  { color: #2563eb; }
+    .pre-letter:nth-child(3)  { color: #4338ca; }
+    .pre-letter:nth-child(4)  { color: #6d28d9; }
+    .pre-letter:nth-child(5)  { color: #7c3aed; }
+    .pre-letter:nth-child(6)  { color: #9333ea; }
+    .pre-letter:nth-child(7)  { color: #c026d3; }
+    .pre-letter:nth-child(8)  { color: transparent; width: .38em; }
+    .pre-letter:nth-child(9)  { color: #059669; }
+    .pre-letter:nth-child(10) { color: #0d9488; }
+    .pre-letter:nth-child(11) { color: #0284c7; }
+    .pre-letter:nth-child(12) { color: #2563eb; }
+    .pre-letter:nth-child(13) { color: #4f46e5; }
+    .pre-letter:nth-child(14) { color: #7c3aed; }
+
+    .pre-progress-area {
+      display: flex; flex-direction: column; align-items: center; gap: .75rem;
+      width: min(340px, 75vw);
+    }
     .pre-bar-wrap {
-      width: min(340px, 70vw); height: 3px;
-      background: rgba(255,255,255,.1); border-radius: 999px; overflow: hidden;
+      width: 100%; height: 5px;
+      background: #e2e8f0; border-radius: 999px; overflow: hidden;
+      box-shadow: inset 0 1px 2px rgba(0,0,0,0.06);
     }
     .pre-bar {
       height: 100%; width: 0%;
-      background: linear-gradient(90deg, #1d4ed8, #6d28d9, #10b981);
+      background: linear-gradient(90deg, #1d4ed8, #7c3aed, #059669);
       border-radius: 999px;
-      transition: width .05s linear;
+      transition: width 0.04s linear;
+      box-shadow: 0 0 8px rgba(37, 99, 235, 0.4);
     }
     .pre-pct {
       font-family: 'Inter', sans-serif;
-      font-size: .85rem; font-weight: 600;
-      color: rgba(255,255,255,.45); letter-spacing: .05em;
+      font-size: .88rem; font-weight: 700;
+      color: #475569; letter-spacing: .04em;
     }
   </style>
 </head>
 <body>
 
-  <!-- ══ PRELOADER ══ -->
+  <!-- ══ PRELOADER (Light Theme) ══ -->
   <div id="preloader" role="status" aria-label="Loading Suleman Zaheer">
+    <div class="pre-badge">SZ</div>
     <div class="pre-name" id="preName"></div>
-    <div class="pre-bar-wrap"><div class="pre-bar" id="preBar"></div></div>
-    <div class="pre-pct" id="prePct">0%</div>
+    <div class="pre-progress-area">
+      <div class="pre-bar-wrap"><div class="pre-bar" id="preBar"></div></div>
+      <div class="pre-pct" id="prePct">0%</div>
+    </div>
   </div>
 
   <!-- ══════════════════════════════════════════════════════════
@@ -1897,61 +1926,79 @@
     });
 
     /* ── 7. CONTACT FORM → WhatsApp ── */
-    document.getElementById('contactForm').addEventListener('submit', function (e) {
-      e.preventDefault();
-      const name    = document.getElementById('name').value.trim();
-      const email   = document.getElementById('email').value.trim();
-      const subject = document.getElementById('subject').value.trim();
-      const message = document.getElementById('message').value.trim();
-      if (!name || !email || !message) {
-        alert('Please fill in all required fields.');
-        return;
-      }
-      const text = `Hello Suleman Zaheer!\n\nName: ${name}\nEmail: ${email}\nSubject: ${subject || 'General Inquiry'}\n\nMessage:\n${message}\n\n(Sent from imsuleman-10.github.io)`;
-      window.open(`https://wa.me/923285778715?text=${encodeURIComponent(text)}`, '_blank');
-    })();
+    const contactForm = document.getElementById('contactForm');
+    if (contactForm) {
+      contactForm.addEventListener('submit', function (e) {
+        e.preventDefault();
+        const name    = document.getElementById('name').value.trim();
+        const email   = document.getElementById('email').value.trim();
+        const subject = document.getElementById('subject').value.trim();
+        const message = document.getElementById('message').value.trim();
+        if (!name || !email || !message) {
+          alert('Please fill in all required fields.');
+          return;
+        }
+        const text = `Hello Suleman Zaheer!\n\nName: ${name}\nEmail: ${email}\nSubject: ${subject || 'General Inquiry'}\n\nMessage:\n${message}\n\n(Sent from imsuleman-10.github.io)`;
+        window.open(`https://wa.me/923285778715?text=${encodeURIComponent(text)}`, '_blank');
+      });
+    }
+
+  })();
 
   /* ══════════════════════════════════════════════
-     PRELOADER — letter by letter + progress bar
+     PRELOADER — letter by letter + progress bar (Light Theme)
   ══════════════════════════════════════════════ */
-  (function() {
-    const name    = 'Suleman Zaheer';
-    const nameEl  = document.getElementById('preName');
-    const barEl   = document.getElementById('preBar');
-    const pctEl   = document.getElementById('prePct');
-    const loader  = document.getElementById('preloader');
+  (function () {
+    const name   = 'Suleman Zaheer';
+    const nameEl = document.getElementById('preName');
+    const barEl  = document.getElementById('preBar');
+    const pctEl  = document.getElementById('prePct');
+    const loader = document.getElementById('preloader');
+    if (!nameEl || !barEl || !pctEl || !loader) return;
 
     /* Build letter spans */
+    nameEl.innerHTML = '';
     [...name].forEach((ch, i) => {
       const s = document.createElement('span');
       s.className = 'pre-letter';
       s.textContent = ch === ' ' ? '\u00A0' : ch;
-      s.style.animationDelay = (i * 0.08) + 's';
+      s.style.animationDelay = (i * 0.07) + 's';
       nameEl.appendChild(s);
     });
 
-    /* Animate progress bar 0 → 100 */
+    /* Progress bar 0 → 100% */
     let pct = 0;
-    const totalMs  = 2000;   /* 2 seconds total */
-    const interval = 30;     /* tick every 30ms */
+    const totalMs  = 1600;
+    const interval = 25;
     const step     = 100 / (totalMs / interval);
 
+    function dismissLoader() {
+      loader.classList.add('hidden');
+      document.body.style.overflow = '';
+      setTimeout(() => {
+        if (loader.parentNode) loader.parentNode.removeChild(loader);
+      }, 550);
+    }
+
     const timer = setInterval(() => {
-      pct = Math.min(100, pct + step + (Math.random() * step * .4));
-      barEl.style.width = pct + '%';
+      pct = Math.min(100, pct + step + (Math.random() * step * 0.35));
+      barEl.style.width  = pct + '%';
       pctEl.textContent  = Math.floor(pct) + '%';
       if (pct >= 100) {
         clearInterval(timer);
         barEl.style.width = '100%';
-        pctEl.textContent  = '100%';
-        setTimeout(() => {
-          loader.classList.add('hidden');
-          document.body.style.overflow = '';
-        }, 400);
+        pctEl.textContent = '100%';
+        setTimeout(dismissLoader, 300);
       }
     }, interval);
 
-    /* Prevent scroll while loading */
+    /* Absolute safety fallback */
+    setTimeout(() => {
+      clearInterval(timer);
+      dismissLoader();
+    }, 2800);
+
+    /* Prevent scrolling while loading */
     document.body.style.overflow = 'hidden';
   })();
   </script>
