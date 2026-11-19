@@ -524,7 +524,7 @@
 
     .aura-container {
       position: relative;
-      width: 360px; height: 360px;
+      width: 420px; height: 420px;
       display: flex; justify-content: center; align-items: center;
       transform-style: preserve-3d; perspective: 1000px;
     }
@@ -545,34 +545,26 @@
     }
 
     .ring1 {
-      width: 310px; height: 310px;
-      border: 2.5px solid var(--ring-primary);
-      box-shadow: 0 0 8px rgba(37,99,235,.3), inset 0 0 8px rgba(37,99,235,.1);
+      width: 316px; height: 316px;
+      border: 5px solid var(--ring-primary);
+      box-shadow: 0 0 18px rgba(37,99,235,.45), inset 0 0 10px rgba(37,99,235,.15);
       animation: spin1 10s linear infinite, pulse-ring 2s 0s infinite ease-in-out;
     }
     .ring2 {
-      width: 290px; height: 290px;
-      border: 2px solid var(--ring-secondary);
-      box-shadow: 0 0 8px rgba(139,92,246,.3);
-      animation: spin2 13s linear infinite, pulse-ring 2s .5s infinite ease-in-out;
+      width: 348px; height: 348px;
+      border: 4px solid var(--ring-secondary);
+      box-shadow: 0 0 16px rgba(139,92,246,.4);
+      animation: spin2 14s linear infinite, pulse-ring 2s .5s infinite ease-in-out;
     }
     .ring3 {
-      width: 335px; height: 335px;
-      border: 2px dashed var(--ring-tertiary);
-      box-shadow: 0 0 6px rgba(16,185,129,.25);
-      opacity: .7;
-      animation: spin3 16s linear infinite, pulse-ring 2s 1s infinite ease-in-out;
+      width: 382px; height: 382px;
+      border: 4px dashed var(--ring-tertiary);
+      box-shadow: 0 0 14px rgba(16,185,129,.35);
+      opacity: .85;
+      animation: spin3 18s linear infinite, pulse-ring 2s 1s infinite ease-in-out;
     }
-    .ring4 {
-      width: 300px; height: 300px;
-      border: 1.5px solid rgba(37,99,235,.4);
-      animation: spin4 11s linear infinite, pulse-ring 2s .2s infinite ease-in-out;
-    }
-    .ring5 {
-      width: 320px; height: 320px;
-      border: 1.5px solid rgba(139,92,246,.35);
-      animation: spin5 14s linear infinite, pulse-ring 2s .7s infinite ease-in-out;
-    }
+    .ring4 { display: none; }
+    .ring5 { display: none; }
 
     @keyframes spin1 {
       from { transform: rotateX(60deg) rotateY(0deg) rotateZ(0deg); }
@@ -597,6 +589,56 @@
     @keyframes pulse-ring {
       0%, 100% { opacity: 1; }
       50%       { opacity: .55; }
+    }
+
+    /* Photo + Logo wrapper */
+    .photo-logo-wrap {
+      display: flex; flex-direction: column; align-items: center; gap: 1.4rem;
+    }
+
+    /* Animated Name Logo */
+    .name-logo {
+      display: flex; align-items: center; gap: .75rem;
+      animation: logoFadeIn .9s ease both;
+      animation-delay: .6s; opacity: 0;
+    }
+    @keyframes logoFadeIn {
+      from { opacity: 0; transform: translateY(10px); }
+      to   { opacity: 1; transform: translateY(0); }
+    }
+    .name-logo-sz {
+      display: flex; align-items: center; justify-content: center;
+      width: 48px; height: 48px;
+      background: linear-gradient(135deg, var(--blue-600) 0%, #8b5cf6 100%);
+      color: #fff; border-radius: 12px;
+      font-size: 1.15rem; font-weight: 800; letter-spacing: -.03em;
+      box-shadow: 0 4px 16px rgba(37,99,235,.35);
+      flex-shrink: 0;
+      animation: szPulse 3s ease-in-out infinite;
+    }
+    @keyframes szPulse {
+      0%,100% { box-shadow: 0 4px 16px rgba(37,99,235,.35); }
+      50%      { box-shadow: 0 4px 28px rgba(139,92,246,.5); }
+    }
+    .name-logo-text {
+      display: flex; flex-direction: column; line-height: 1.1;
+    }
+    .name-logo-first {
+      font-size: 1.1rem; font-weight: 800; color: var(--slate-900);
+      letter-spacing: -.02em;
+      background: linear-gradient(90deg, var(--blue-600), #8b5cf6);
+      -webkit-background-clip: text; -webkit-text-fill-color: transparent;
+      background-clip: text;
+      animation: shimmer 3s linear infinite;
+      background-size: 200% auto;
+    }
+    .name-logo-last {
+      font-size: .9rem; font-weight: 600; color: var(--slate-500);
+      letter-spacing: .04em; text-transform: uppercase;
+    }
+    @keyframes shimmer {
+      0%   { background-position: 0% center; }
+      100% { background-position: 200% center; }
     }
 
     /* Status badge on photo */
@@ -758,9 +800,10 @@
     }
     .achieve-card:hover { border-color: var(--blue-100); box-shadow: var(--shadow-md); transform: translateY(-3px); }
     .achieve-icon {
-      width: 48px; height: 48px; border-radius: var(--radius-sm);
+      width: 52px; height: 52px; border-radius: 50%;
       display: flex; align-items: center; justify-content: center;
-      font-size: 1.3rem; flex-shrink: 0;
+      font-size: 1.4rem; flex-shrink: 0;
+      border: 2px solid currentColor;
     }
     .achieve-year { font-size: .78rem; font-weight: 700; color: var(--blue-600); margin-bottom: .2rem; }
     .achieve-title { font-size: 1rem; font-weight: 700; color: var(--slate-900); margin-bottom: .3rem; }
@@ -909,13 +952,13 @@
       .nav-link { width: 100%; padding: .75rem 1rem; }
       .hamburger { display: flex; }
       .nav-cta { display: none; }
-      .aura-container { width: 300px; height: 300px; }
+      .aura-container { width: 340px; height: 340px; }
       .profile-pic { width: 220px; height: 220px; }
-      .ring1 { width: 260px; height: 260px; }
-      .ring2 { width: 240px; height: 240px; }
-      .ring3 { width: 280px; height: 280px; }
-      .ring4 { width: 250px; height: 250px; }
-      .ring5 { width: 270px; height: 270px; }
+      .ring1 { width: 268px; height: 268px; }
+      .ring2 { width: 296px; height: 296px; }
+      .ring3 { width: 324px; height: 324px; }
+      .ring4 { display: none; }
+      .ring5 { display: none; }
       .hero-stats { gap: 1.5rem; }
       .projects-grid { grid-template-columns: 1fr; }
     }
@@ -1012,22 +1055,32 @@
 
           <!-- Photo Side -->
           <div class="hero-photo-side">
-            <div class="aura-container" role="img" aria-label="Portrait of Suleman Zaheer">
-              <div class="aura-ring ring1"></div>
-              <div class="aura-ring ring2"></div>
-              <div class="aura-ring ring3"></div>
-              <div class="aura-ring ring4"></div>
-              <div class="aura-ring ring5"></div>
-              <img
-                src="gallery/suleman-zaheer-software-engineer-writer-lahore.jpeg"
-                alt="Suleman Zaheer (سلیمان ظہیر) — Lead Software Engineer, Systems Architect and Founder of SAMStack Tech in Lahore, Pakistan"
-                title="Suleman Zaheer — Lead Software Engineer & Author"
-                class="profile-pic"
-                width="260" height="260"
-                loading="eager" fetchpriority="high" decoding="async">
-              <div class="status-badge">
-                <span class="status-dot"></span>
-                Available for hire
+            <div class="photo-logo-wrap">
+              <div class="aura-container" role="img" aria-label="Portrait of Suleman Zaheer">
+                <div class="aura-ring ring1"></div>
+                <div class="aura-ring ring2"></div>
+                <div class="aura-ring ring3"></div>
+                <div class="aura-ring ring4"></div>
+                <div class="aura-ring ring5"></div>
+                <img
+                  src="gallery/suleman-zaheer-software-engineer-writer-lahore.jpeg"
+                  alt="Suleman Zaheer (سلیمان ظہیر) — Lead Software Engineer, Systems Architect and Founder of SAMStack Tech in Lahore, Pakistan"
+                  title="Suleman Zaheer — Lead Software Engineer & Author"
+                  class="profile-pic"
+                  width="260" height="260"
+                  loading="eager" fetchpriority="high" decoding="async">
+                <div class="status-badge">
+                  <span class="status-dot"></span>
+                  Available for hire
+                </div>
+              </div>
+              <!-- Animated Name Logo -->
+              <div class="name-logo" aria-label="Suleman Zaheer">
+                <span class="name-logo-sz">SZ</span>
+                <span class="name-logo-text">
+                  <span class="name-logo-first">Suleman</span>
+                  <span class="name-logo-last">Zaheer</span>
+                </span>
               </div>
             </div>
           </div>
