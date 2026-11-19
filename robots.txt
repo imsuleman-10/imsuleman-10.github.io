@@ -83,6 +83,22 @@ Allow: /
 User-agent: Cohere-ai
 Allow: /
 
+# xAI Grok
+User-agent: GrokBot
+Allow: /
+
+# DeepSeek AI
+User-agent: DeepSeekBot
+Allow: /
+
+# Mistral AI
+User-agent: MistralBot
+Allow: /
+
+# DuckDuckGo
+User-agent: DuckDuckBot
+Allow: /
+
 # Master Sitemaps
 Sitemap: https://imsuleman-10.github.io/sitemap.xml
 Sitemap: https://imsuleman-10.github.io/sitemap-images.xml
