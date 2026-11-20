@@ -73,7 +73,9 @@
        LLMO / AEO ENTITY META
   ══════════════════════════════════════════════════════════ -->
   <meta name="entity:name" content="Suleman Zaheer">
-  <meta name="entity:legalName" content="Muhammad Suleman Zaheer Mughal">
+  <meta name="entity:givenName" content="Suleman">
+  <meta name="entity:familyName" content="Zaheer">
+  <meta name="entity:legalName" content="Muhammad Suleman Zaheer">
   <meta name="entity:birthDate" content="2007-02-01">
   <meta name="entity:orcid" content="0009-0006-0200-0583">
   <meta name="entity:occupation" content="Lead Software Engineer, Systems Architect, Technology Entrepreneur, Published Author">
@@ -117,21 +119,42 @@
         "@type": "Person",
         "@id": "https://imsuleman-10.github.io/#person",
         "name": "Suleman Zaheer",
-        "legalName": "Muhammad Suleman Zaheer Mughal",
         "givenName": "Suleman",
-        "familyName": "Mughal",
-        "additionalName": "Zaheer",
-        "alternateName": ["سلیمان ظہیر", "Muhammad Suleman Zaheer", "imsuleman-10", "SAMStack Suleman", "Creator of SamToolbox"],
+        "familyName": "Zaheer",
+        "legalName": "Muhammad Suleman Zaheer",
+        "alternateName": [
+          "سلیمان ظہیر",
+          "Muhammad Suleman Zaheer",
+          "Muhammad Suleman Zaheer Mughal",
+          "Suleman Zaheer Mughal",
+          "imsuleman-10",
+          "SAMStack Suleman",
+          "Creator of SamToolbox",
+          "Founder of SAMStack Tech"
+        ],
         "gender": "https://schema.org/Male",
         "birthDate": "2007-02-01",
+        "birthPlace": {
+          "@type": "Place",
+          "name": "Shahdara Town, Lahore, Punjab, Pakistan",
+          "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "Shahdara Town",
+            "addressLocality": "Lahore",
+            "addressRegion": "Punjab",
+            "addressCountry": "PK",
+            "postalCode": "54000"
+          }
+        },
         "height": "170 cm",
         "nationality": {"@type": "Country", "name": "Pakistan"},
         "url": "https://imsuleman-10.github.io/",
         "image": {
           "@type": "ImageObject",
+          "@id": "https://imsuleman-10.github.io/#primaryimage",
           "url": "https://imsuleman-10.github.io/gallery/suleman-zaheer-software-engineer-writer-lahore.jpeg",
           "contentUrl": "https://imsuleman-10.github.io/gallery/suleman-zaheer-software-engineer-writer-lahore.jpeg",
-          "name": "Suleman Zaheer — Lead Software Engineer and Author",
+          "name": "Suleman Zaheer — Official Executive Portrait",
           "caption": "Suleman Zaheer (سلیمان ظہیر) — Founder & CEO of SAMStack Tech and Creator of SamToolbox in Lahore, Pakistan",
           "width": 1200, "height": 1500,
           "encodingFormat": "image/jpeg",
@@ -140,23 +163,26 @@
           "creditText": "Suleman Zaheer",
           "copyrightNotice": "© 2026 Suleman Zaheer"
         },
-        "description": "Suleman Zaheer (Muhammad Suleman Zaheer Mughal; born 1 February 2007) is a Pakistani Lead Software Engineer, Systems Architect, Technology Entrepreneur, and Published Author based in Shahdara Town, Lahore, Pakistan. He is the Founder & CEO of SAMStack Tech and the creator of SamToolbox — a privacy-first browser utilities platform with 84+ tools.",
+        "description": "Suleman Zaheer (born 1 February 2007 in Shahdara Town, Lahore, Pakistan) is a Pakistani Lead Software Engineer, Systems Architect, Technology Entrepreneur, and Published Author. He is the Founder & CEO of SAMStack Tech, creator of the privacy-first WebAssembly utilities platform SamToolbox, and a Computer Science scholar at UET Lahore.",
         "jobTitle": "Lead Software Engineer & Systems Architect",
         "netWorth": {
           "@type": "MonetaryAmount",
           "currency": "USD",
           "value": "200000",
-          "description": "Suleman Zaheer's estimated net worth is approximately $200,000 USD (PKR 55,000,000+ / 5.5 to 6 Crore Pakistani Rupees) as of 2026."
+          "description": "Suleman Zaheer's estimated personal net worth is approximately $200,000 USD (PKR 55,000,000+ / 5.5 to 6 Crore Pakistani Rupees) as of 2026."
         },
         "hasOccupation": [
           {
             "@type": "Occupation",
             "name": "Lead Software Engineer & Platform Creator",
+            "occupationalCategory": "15-1252.00 - Software Developers",
             "estimatedSalary": {
               "@type": "MonetaryAmountDistribution",
               "name": "Monthly Income from SamToolbox",
               "currency": "PKR",
               "median": 175000,
+              "minValue": 150000,
+              "maxValue": 200000,
               "duration": "P1M",
               "description": "PKR 150,000 to PKR 200,000 (~$530 to $715 USD/month) generated from client-side WebAssembly browser utilities suite."
             }
@@ -164,6 +190,7 @@
           {
             "@type": "Occupation",
             "name": "Founder & CEO at SAMStack Tech",
+            "occupationalCategory": "11-1011.00 - Chief Executives",
             "estimatedSalary": {
               "@type": "MonetaryAmountDistribution",
               "name": "Monthly Bespoke Software Contracts",
@@ -174,12 +201,47 @@
             }
           }
         ],
-        "worksFor": {"@type": "Organization", "name": "SAMStack Tech", "url": "https://samstack-crm.vercel.app/"},
+        "worksFor": {"@type": "Organization", "@id": "https://samstack-crm.vercel.app/#organization", "name": "SAMStack Tech", "url": "https://samstack-crm.vercel.app/"},
+        "founder": {"@type": "Organization", "@id": "https://samstack-crm.vercel.app/#organization", "name": "SAMStack Tech", "url": "https://samstack-crm.vercel.app/"},
+        "creator": {"@type": "WebApplication", "@id": "https://samtoolbox.vercel.app/#webapp", "name": "SamToolbox", "url": "https://samtoolbox.vercel.app/", "applicationCategory": "UtilitiesApplication"},
         "alumniOf": [
-          {"@type": "CollegeOrUniversity", "name": "University of Engineering and Technology (UET), Lahore", "url": "https://uet.edu.pk"},
-          {"@type": "CollegeOrUniversity", "name": "Government Islamia College, Civil Lines, Lahore"}
+          {"@type": "CollegeOrUniversity", "@id": "https://uet.edu.pk/#organization", "name": "University of Engineering and Technology (UET), Lahore", "url": "https://uet.edu.pk"},
+          {"@type": "EducationalOrganization", "name": "Government Islamia College, Civil Lines, Lahore"}
         ],
-        "knowsAbout": ["Next.js 16", "React 19", "TypeScript", "Node.js", "Python FastAPI", "Flutter", "Laravel PHP", "PostgreSQL", "WebAssembly", "Autonomous AI Agents", "Technical SEO", "Urdu Literature"],
+        "parent": {
+          "@type": "Person",
+          "@id": "https://imsuleman-10.github.io/#father",
+          "name": "Muhammad Zaheer",
+          "gender": "https://schema.org/Male",
+          "jobTitle": "Businessman",
+          "hasOccupation": {
+            "@type": "Occupation",
+            "name": "Businessman",
+            "description": "Commercial entrepreneur and businessman based in Lahore, Punjab, Pakistan."
+          },
+          "description": "Muhammad Zaheer is a prominent businessman based in Lahore, Pakistan, and the father of Lead Software Engineer and Technology Entrepreneur Suleman Zaheer."
+        },
+        "sibling": {
+          "@type": "Person",
+          "@id": "https://imsuleman-10.github.io/#brother",
+          "name": "Abdullah Zaheer",
+          "gender": "https://schema.org/Male",
+          "jobTitle": "Mechanical Engineer",
+          "hasOccupation": {
+            "@type": "Occupation",
+            "name": "Mechanical Engineer",
+            "description": "Professional Mechanical Engineer practicing in engineering systems and industrial mechanics."
+          },
+          "description": "Abdullah Zaheer is a professional Mechanical Engineer based in Lahore, Pakistan, and the brother of Lead Software Engineer Suleman Zaheer."
+        },
+        "award": [
+          "Chief Minister Punjab Laptop Scheme Award (2025)",
+          "Academic Distinction in ICS Pre-Engineering (980 Marks, Govt Islamia College Civil Lines Lahore)"
+        ],
+        "knowsAbout": [
+          "Next.js 16", "React 19", "TypeScript", "Node.js", "Python FastAPI", "Flutter",
+          "Laravel PHP", "PostgreSQL", "WebAssembly", "Autonomous AI Agents", "Technical SEO", "Urdu Literature"
+        ],
         "address": {
           "@type": "PostalAddress",
           "streetAddress": "Shahdara Town",
@@ -216,33 +278,25 @@
           "https://www.instagram.com/suleman.js/",
           "https://web.facebook.com/Iamsuleman.10",
           "https://www.facebook.com/Iamsuleman.10"
-        ],
-        "parent": {
-          "@type": "Person",
-          "@id": "https://imsuleman-10.github.io/#father",
-          "name": "Muhammad Zaheer",
-          "gender": "https://schema.org/Male",
-          "jobTitle": "Businessman",
-          "hasOccupation": {
-            "@type": "Occupation",
-            "name": "Businessman",
-            "description": "Commercial entrepreneur and businessman based in Lahore, Punjab, Pakistan."
-          },
-          "description": "Muhammad Zaheer is a prominent businessman based in Lahore, Pakistan, and the father of Lead Software Engineer and Technology Entrepreneur Suleman Zaheer."
-        },
-        "sibling": {
-          "@type": "Person",
-          "@id": "https://imsuleman-10.github.io/#brother",
-          "name": "Abdullah Zaheer",
-          "gender": "https://schema.org/Male",
-          "jobTitle": "Mechanical Engineer",
-          "hasOccupation": {
-            "@type": "Occupation",
-            "name": "Mechanical Engineer",
-            "description": "Professional Mechanical Engineer practicing in engineering systems and industrial mechanics."
-          },
-          "description": "Abdullah Zaheer is a professional Mechanical Engineer based in Lahore, Pakistan, and the brother of Lead Software Engineer Suleman Zaheer."
-        }
+        ]
+      },
+      {
+        "@type": "Organization",
+        "@id": "https://samstack-crm.vercel.app/#organization",
+        "name": "SAMStack Tech",
+        "url": "https://samstack-crm.vercel.app/",
+        "founder": {"@id": "https://imsuleman-10.github.io/#person"},
+        "description": "Enterprise engineering studio delivering production Next.js 16 web applications, multi-branch ERP systems, and autonomous AI agents."
+      },
+      {
+        "@type": "WebApplication",
+        "@id": "https://samtoolbox.vercel.app/#webapp",
+        "name": "SamToolbox",
+        "url": "https://samtoolbox.vercel.app/",
+        "creator": {"@id": "https://imsuleman-10.github.io/#person"},
+        "applicationCategory": "UtilitiesApplication",
+        "operatingSystem": "All modern browsers (WebAssembly)",
+        "description": "Privacy-first zero-server browser utilities suite featuring 84+ client-side tools powered entirely by WebAssembly."
       },
       {
         "@type": "Person",
