@@ -1681,6 +1681,7 @@
 
     @media (max-width: 768px) {
       section { padding: 4rem 0; }
+      .container { padding: 0 1.25rem; }
       .nav-menu {
         position: fixed; top: 70px; left: 0; width: 100%;
         background: var(--white); border-top: 1px solid var(--slate-100);
@@ -1705,6 +1706,11 @@
       .hero-social-strip { gap: .4rem; margin-top: .9rem; }
       .hero-social-btn { font-size: .76rem; padding: .38rem .65rem; gap: .35rem; }
       .hero-social-btn i { font-size: .82rem; }
+      .hero { overflow-x: hidden; }
+      .hero-content { overflow: hidden; width: 100%; }
+      .hero-title { word-break: break-word; }
+      .hero-subtitle { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; max-width: 100%; }
+      .hero-bio { max-width: 100%; word-break: break-word; }
       .hero-buttons { display: grid; grid-template-columns: 1fr 1fr; gap: .6rem; width: 100%; max-width: 380px; margin-left: auto; margin-right: auto; }
       .hero-buttons .btn:last-child:nth-child(odd) { grid-column: 1 / -1; }
       .projects-grid { grid-template-columns: 1fr; }
@@ -1720,6 +1726,7 @@
       .skill-card span { font-size: .68rem; }
       .hero-social-btn { font-size: .7rem; padding: .32rem .55rem; gap: .28rem; }
       .hero-buttons { max-width: 320px; }
+      .container { padding: 0 1rem; }
       .footer-inner { flex-direction: column; text-align: center; }
       .footer-links { justify-content: center; }
     }
@@ -2839,11 +2846,9 @@
           © 2026 <a href="https://imsuleman-10.github.io/" style="color:var(--slate-400);">Suleman Zaheer</a>. All rights reserved.
         </div>
         <div class="footer-links">
-          <a href="/llms.txt">llms.txt</a>
-          <a href="/sitemap.xml">Sitemap</a>
-          <a href="/robots.txt">Robots</a>
-          <a href="https://web.facebook.com/Iamsuleman.10" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-facebook"></i> Facebook</a>
-          <a href="https://suleman-zaheer.vercel.app/wiki" target="_blank" rel="noopener noreferrer">Wiki</a>
+          <a href="/about/">About</a>
+          <a href="/wiki/">Wiki</a>
+          <a href="https://imsuleman-10.github.io/#contact">Contact</a>
         </div>
       </div>
     </div>
