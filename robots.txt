@@ -99,6 +99,20 @@ Allow: /
 User-agent: DuckDuckBot
 Allow: /
 
+
+# Extended AI & Search Bots
+User-agent: Amazonbot
+Allow: /
+
+User-agent: Diffbot
+Allow: /
+
+User-agent: SemrushBot
+Allow: /
+
+User-agent: AhrefsBot
+Allow: /
+
 # Master Sitemaps
 Sitemap: https://imsuleman-10.github.io/sitemap.xml
 Sitemap: https://imsuleman-10.github.io/sitemap-images.xml
