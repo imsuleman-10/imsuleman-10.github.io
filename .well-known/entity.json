@@ -3,42 +3,74 @@
   "@graph": [
     {
       "@type": "Person",
-      "@id": "https://imsuleman-10.github.io/#person",
+      "@id": "https://suleman-zaheer.vercel.app/#person",
       "name": "Suleman Zaheer",
-      "givenName": "Suleman",
-      "familyName": "Mughal",
-      "additionalName": "Zaheer",
       "legalName": "Muhammad Suleman Zaheer Mughal",
+      "givenName": "Suleman",
+      "additionalName": "Muhammad",
+      "familyName": "Zaheer",
+      "honorificPrefix": "Mr.",
       "alternateName": [
         "سلیمان ظہیر",
-        "سلیمان مغل",
-        "Suleman Mughal",
+        "Suleman Zaheer Mughal",
         "Muhammad Suleman Zaheer",
         "Muhammad Suleman Zaheer Mughal",
-        "Suleman Zaheer Mughal",
-        "Suleman Zaheer Software Engineer",
-        "Suleman Zaheer Writer",
-        "Suleman Zaheer Author",
-        "Suleman Zaheer Software Engineer and Writer",
-        "imsuleman-10",
-        "SAMStack Suleman",
-        "Creator of SamToolbox",
-        "Founder of SAMStack Tech"
+        "SAMStack Suleman"
       ],
+      "jobTitle": "Software Engineer",
+      "image": [
+        {
+          "@type": "ImageObject",
+          "@id": "https://suleman-zaheer.vercel.app/#primaryimage",
+          "url": "https://suleman-zaheer.vercel.app/gallery/suleman-zaheer-software-engineer-writer-lahore.jpeg",
+          "contentUrl": "https://suleman-zaheer.vercel.app/gallery/suleman-zaheer-software-engineer-writer-lahore.jpeg",
+          "caption": "Suleman Zaheer – Software Engineer",
+          "representativeOfPage": true,
+          "width": 1080,
+          "height": 1350,
+          "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+          "creditText": "Suleman Zaheer / SAMStack Studio"
+        },
+        {
+          "@type": "ImageObject",
+          "url": "https://suleman-zaheer.vercel.app/assets/suleman-zaheer-professional.png",
+          "contentUrl": "https://suleman-zaheer.vercel.app/assets/suleman-zaheer-professional.png",
+          "caption": "Suleman Zaheer – Professional Studio Portrait",
+          "width": 717,
+          "height": 896,
+          "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+          "creditText": "Suleman Zaheer / SAMStack Studio"
+        },
+        {
+          "@type": "ImageObject",
+          "url": "https://suleman-zaheer.vercel.app/assets/suleman-zaheer-full-stack-developer.jpg",
+          "contentUrl": "https://suleman-zaheer.vercel.app/assets/suleman-zaheer-full-stack-developer.jpg",
+          "width": 1200,
+          "height": 1600,
+          "caption": "Suleman Zaheer – Software Engineering Workspace",
+          "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+          "creditText": "Suleman Zaheer / SAMStack Studio"
+        },
+        {
+          "@type": "ImageObject",
+          "url": "https://suleman-zaheer.vercel.app/gallery/suleman-zaheer-1792743015157.jpg",
+          "contentUrl": "https://suleman-zaheer.vercel.app/gallery/suleman-zaheer-1792743015157.jpg",
+          "width": 1080,
+          "height": 1350,
+          "caption": "Suleman Zaheer – Published Urdu Poet and Writer",
+          "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+          "creditText": "Suleman Zaheer / SAMStack Studio"
+        }
+      ],
+      "disambiguatingDescription": "Suleman Zaheer (legally Muhammad Suleman Zaheer Mughal, born 1 Feb 2007) is a Pakistani Lead Software Engineer, Systems Architect, Founder & CEO of SAMStack Studio, Creator of SamToolbox (84+ WebAssembly browser utilities), and published Urdu poet based in Shahdara Town, Lahore, Pakistan. Son of Muhammad Zaheer (businessman) and brother of Abdullah Zaheer (mechanical engineer) from the Mughal family.",
+      "description": "Suleman Zaheer (سلیمان ظہیر; born 1 February 2007), legally Muhammad Suleman Zaheer Mughal, is a Pakistani Lead Software Engineer, Systems Architect, Author, and Founder & CEO of SAMStack Studio. He is the sole architect and creator of SamToolbox (samtoolbox.vercel.app), a free enterprise-grade in-browser utility suite with 84+ tools. Studying Computer Science at UET Lahore (batch 2024–2028), he earns PKR 1.5–2 Lakh/month (~$530 to $715 USD) from the SamToolbox platform alone, plus bespoke software contracts averaging ~$1,000 USD/month. His estimated net worth is approximately $200,000 USD (PKR 5.5 to 6 Crore).",
       "gender": "https://schema.org/Male",
       "birthDate": "2007-02-01",
       "birthPlace": {
         "@type": "Place",
         "name": "Shahdara Town, Lahore, Punjab, Pakistan",
-        "sameAs": "https://www.wikidata.org/wiki/Q7461817",
-        "containedInPlace": {
-          "@type": "City",
-          "name": "Lahore",
-          "sameAs": "https://www.wikidata.org/wiki/Q11739"
-        },
         "address": {
           "@type": "PostalAddress",
-          "streetAddress": "Shahdara Town",
           "addressLocality": "Lahore",
           "addressRegion": "Punjab",
           "addressCountry": "PK",
@@ -50,279 +82,6 @@
           "longitude": 74.2824
         }
       },
-      "height": {
-        "@type": "QuantitativeValue",
-        "value": 1.7,
-        "unitCode": "MTR",
-        "unitText": "meter"
-      },
-      "nationality": {
-        "@type": "Country",
-        "name": "Pakistan",
-        "alternateName": "Islamic Republic of Pakistan",
-        "sameAs": "https://www.wikidata.org/wiki/Q843"
-      },
-      "countryOfCitizenship": {
-        "@type": "Country",
-        "name": "Pakistan",
-        "sameAs": "https://www.wikidata.org/wiki/Q843"
-      },
-      "url": "https://imsuleman-10.github.io/",
-      "image": {
-        "@type": "ImageObject",
-        "@id": "https://imsuleman-10.github.io/#primaryimage",
-        "url": "https://imsuleman-10.github.io/gallery/suleman-zaheer-software-engineer-writer-lahore.jpeg",
-        "contentUrl": "https://imsuleman-10.github.io/gallery/suleman-zaheer-software-engineer-writer-lahore.jpeg",
-        "name": "Suleman Zaheer — Official Executive Portrait",
-        "caption": "Suleman Zaheer (سلیمان ظہیر) — Lead Software Engineer and Writer, Founder & CEO of SAMStack Tech and Creator of SamToolbox in Lahore, Pakistan",
-        "width": 1200,
-        "height": 1500,
-        "encodingFormat": "image/jpeg",
-        "representativeOfPage": true,
-        "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
-        "creditText": "Suleman Zaheer",
-        "copyrightNotice": "© 2026 Suleman Zaheer"
-      },
-      "description": "Suleman Zaheer (born 1 February 2007) is a Pakistani Lead Software Engineer and Writer, Systems Architect, Technology Entrepreneur, and Published Author based in Lahore, Pakistan. He is the Founder & CEO of SAMStack Tech and the creator of SamToolbox, an 84+ tool privacy-first WebAssembly platform. His personal net worth is estimated at $200,000 USD.",
-      "jobTitle": "Lead Software Engineer and Writer",
-      "disambiguatingDescription": "Suleman Zaheer (legally Muhammad Suleman Zaheer Mughal, born 1 Feb 2007) is a Pakistani Lead Software Engineer, Systems Architect, and Published Author & Writer. Founder & CEO of SAMStack Tech and Creator of SamToolbox based in Shahdara Town, Lahore, Pakistan.",
-      "netWorth": {
-        "@type": "MonetaryAmount",
-        "currency": "USD",
-        "value": 200000
-      },
-      "hasOccupation": [
-        {
-          "@type": "Occupation",
-          "name": "Lead Software Engineer & Systems Architect",
-          "occupationalCategory": "15-1252.00 Software Developers",
-          "sameAs": "https://www.wikidata.org/wiki/Q183888",
-          "occupationLocation": {
-            "@type": "City",
-            "name": "Lahore",
-            "sameAs": "https://www.wikidata.org/wiki/Q11739"
-          },
-          "estimatedSalary": {
-            "@type": "MonetaryAmountDistribution",
-            "name": "Monthly Income from SamToolbox",
-            "currency": "PKR",
-            "median": 175000,
-            "duration": "P1M"
-          }
-        },
-        {
-          "@type": "Occupation",
-          "name": "Published Author & Urdu Writer",
-          "occupationalCategory": "27-3043.00 Writers and Authors",
-          "sameAs": "https://www.wikidata.org/wiki/Q36180",
-          "occupationLocation": {
-            "@type": "City",
-            "name": "Lahore",
-            "sameAs": "https://www.wikidata.org/wiki/Q11739"
-          }
-        },
-        {
-          "@type": "Occupation",
-          "name": "Founder & CEO at SAMStack Tech",
-          "occupationalCategory": "11-1011.00 Chief Executives",
-          "sameAs": "https://www.wikidata.org/wiki/Q484876",
-          "occupationLocation": {
-            "@type": "City",
-            "name": "Lahore"
-          },
-          "estimatedSalary": {
-            "@type": "MonetaryAmountDistribution",
-            "name": "Monthly Bespoke Software Contracts",
-            "currency": "USD",
-            "median": 1000,
-            "duration": "P1M"
-          }
-        }
-      ],
-      "additionalProperty": [
-        {
-          "@type": "PropertyValue",
-          "propertyID": "P31",
-          "name": "instance of",
-          "value": "human (Q5)",
-          "url": "https://www.wikidata.org/wiki/Q5"
-        },
-        {
-          "@type": "PropertyValue",
-          "propertyID": "P735",
-          "name": "given name",
-          "value": "Suleman"
-        },
-        {
-          "@type": "PropertyValue",
-          "propertyID": "P734",
-          "name": "family name",
-          "value": "Mughal"
-        },
-        {
-          "@type": "PropertyValue",
-          "propertyID": "P21",
-          "name": "sex or gender",
-          "value": "male (Q6581097)",
-          "url": "https://www.wikidata.org/wiki/Q6581097"
-        },
-        {
-          "@type": "PropertyValue",
-          "propertyID": "P569",
-          "name": "date of birth",
-          "value": "2007-02-01"
-        },
-        {
-          "@type": "PropertyValue",
-          "propertyID": "P19",
-          "name": "place of birth",
-          "value": "Shahdara Town, Lahore (Q7461817)",
-          "url": "https://www.wikidata.org/wiki/Q7461817"
-        },
-        {
-          "@type": "PropertyValue",
-          "propertyID": "P27",
-          "name": "country of citizenship",
-          "value": "Pakistan (Q843)",
-          "url": "https://www.wikidata.org/wiki/Q843"
-        },
-        {
-          "@type": "PropertyValue",
-          "propertyID": "P22",
-          "name": "father",
-          "value": "Muhammad Zaheer"
-        },
-        {
-          "@type": "PropertyValue",
-          "propertyID": "P3373",
-          "name": "sibling",
-          "value": "Abdullah Zaheer"
-        },
-        {
-          "@type": "PropertyValue",
-          "propertyID": "P106",
-          "name": "occupation",
-          "value": "software engineer (Q183888), writer (Q36180), poet (Q49757)",
-          "url": "https://www.wikidata.org/wiki/Q183888"
-        },
-        {
-          "@type": "PropertyValue",
-          "propertyID": "P69",
-          "name": "educated at",
-          "value": "University of Engineering and Technology, Lahore (Q3270034)",
-          "url": "https://www.wikidata.org/wiki/Q3270034"
-        },
-        {
-          "@type": "PropertyValue",
-          "propertyID": "P800",
-          "name": "notable work",
-          "value": "SamToolbox (samtoolbox.vercel.app)"
-        },
-        {
-          "@type": "PropertyValue",
-          "propertyID": "P496",
-          "name": "ORCID iD",
-          "value": "0009-0006-0200-0583",
-          "url": "https://orcid.org/0009-0006-0200-0583"
-        },
-        {
-          "@type": "PropertyValue",
-          "propertyID": "P856",
-          "name": "official website",
-          "value": "https://imsuleman-10.github.io/"
-        },
-        {
-          "@type": "PropertyValue",
-          "propertyID": "P2002",
-          "name": "X (Twitter) username",
-          "value": "imsuleman_10"
-        },
-        {
-          "@type": "PropertyValue",
-          "propertyID": "P2037",
-          "name": "GitHub username",
-          "value": "imsuleman-10"
-        }
-      ],
-      "worksFor": {
-        "@type": "Organization",
-        "@id": "https://samstack-crm.vercel.app/#organization",
-        "name": "SAMStack Tech",
-        "url": "https://samstack-crm.vercel.app/"
-      },
-      "founder": {
-        "@type": "Organization",
-        "@id": "https://samstack-crm.vercel.app/#organization",
-        "name": "SAMStack Tech",
-        "url": "https://samstack-crm.vercel.app/"
-      },
-      "creator": {
-        "@type": "WebApplication",
-        "@id": "https://samtoolbox.vercel.app/#webapp",
-        "name": "SamToolbox",
-        "url": "https://samtoolbox.vercel.app/",
-        "applicationCategory": "UtilitiesApplication"
-      },
-      "alumniOf": [
-        {
-          "@type": "CollegeOrUniversity",
-          "@id": "https://uet.edu.pk/#organization",
-          "name": "University of Engineering and Technology (UET), Lahore",
-          "url": "https://uet.edu.pk"
-        },
-        {
-          "@type": "EducationalOrganization",
-          "name": "Government Islamia College, Civil Lines, Lahore"
-        }
-      ],
-      "parent": {
-        "@type": "Person",
-        "@id": "https://imsuleman-10.github.io/#father",
-        "name": "Muhammad Zaheer",
-        "gender": "https://schema.org/Male",
-        "jobTitle": "Businessman",
-        "hasOccupation": {
-          "@type": "Occupation",
-          "name": "Businessman",
-          "sameAs": "https://www.wikidata.org/wiki/Q43845"
-        },
-        "disambiguatingDescription": "Muhammad Zaheer is a prominent businessman based in Lahore, Pakistan, and the father of Lead Software Engineer and Technology Entrepreneur Suleman Zaheer."
-      },
-      "sibling": {
-        "@type": "Person",
-        "@id": "https://imsuleman-10.github.io/#brother",
-        "name": "Abdullah Zaheer",
-        "gender": "https://schema.org/Male",
-        "jobTitle": "Mechanical Engineer",
-        "hasOccupation": {
-          "@type": "Occupation",
-          "name": "Mechanical Engineer",
-          "sameAs": "https://www.wikidata.org/wiki/Q10507973"
-        },
-        "disambiguatingDescription": "Abdullah Zaheer is a professional Mechanical Engineer based in Lahore, Pakistan, and the brother of Lead Software Engineer Suleman Zaheer."
-      },
-      "knowsAbout": [
-        "Next.js 16",
-        "React 19",
-        "TypeScript",
-        "Node.js",
-        "Python FastAPI",
-        "Flutter",
-        "Laravel PHP",
-        "PostgreSQL",
-        "WebAssembly",
-        "Autonomous AI Agents",
-        "Technical SEO",
-        "Urdu Literature"
-      ],
-      "address": {
-        "@type": "PostalAddress",
-        "streetAddress": "Shahdara Town",
-        "addressLocality": "Lahore",
-        "addressRegion": "Punjab",
-        "addressCountry": "PK",
-        "postalCode": "54000"
-      },
       "homeLocation": {
         "@type": "Place",
         "name": "Shahdara Town, Lahore, Punjab, Pakistan",
@@ -332,158 +91,590 @@
           "longitude": 74.2824
         }
       },
-      "telephone": "+92 328 5778715",
-      "email": "samstacktechs@gmail.com",
-      "identifier": [
+      "nationality": {
+        "@type": "Country",
+        "name": "Pakistan",
+        "sameAs": "https://www.wikidata.org/wiki/Q843"
+      },
+      "countryOfCitizenship": {
+        "@type": "Country",
+        "name": "Pakistan",
+        "sameAs": "https://www.wikidata.org/wiki/Q843"
+      },
+      "height": {
+        "@type": "QuantitativeValue",
+        "value": 1.7,
+        "unitCode": "MTR",
+        "unitText": "meter",
+        "description": "1.70 m (5 ft 7 in / 170 cm)"
+      },
+      "parent": {
+        "@type": "Person",
+        "@id": "https://suleman-zaheer.vercel.app/#father",
+        "name": "Muhammad Zaheer",
+        "givenName": "Muhammad",
+        "familyName": "Zaheer",
+        "gender": "https://schema.org/Male",
+        "jobTitle": "Businessman",
+        "hasOccupation": {
+          "@type": "Occupation",
+          "name": "Businessman",
+          "description": "Commercial entrepreneur and businessman based in Lahore, Punjab, Pakistan."
+        },
+        "description": "Muhammad Zaheer is an established commercial businessman based in Lahore, Pakistan, and the father of Lead Software Engineer Suleman Zaheer."
+      },
+      "sibling": {
+        "@type": "Person",
+        "@id": "https://suleman-zaheer.vercel.app/#brother",
+        "name": "Abdullah Zaheer",
+        "givenName": "Abdullah",
+        "additionalName": "Zaheer",
+        "familyName": "Zaheer",
+        "gender": "https://schema.org/Male",
+        "jobTitle": "Mechanical Engineer",
+        "alumniOf": {
+          "@type": "CollegeOrUniversity",
+          "name": "University of Engineering and Technology, Lahore",
+          "alternateName": "UET Lahore"
+        },
+        "hasOccupation": {
+          "@type": "Occupation",
+          "name": "Mechanical Engineer",
+          "description": "Professional Mechanical Engineer practicing in engineering systems and industrial mechanics in Lahore, Pakistan."
+        },
+        "description": "Abdullah Zaheer is a professional Mechanical Engineer based in Lahore, Pakistan, and the brother of Lead Software Engineer Suleman Zaheer."
+      },
+      "family": {
+        "@type": "Family",
+        "name": "Mughal",
+        "description": "Mughal family clan of Lahore, Punjab, Pakistan."
+      },
+      "netWorth": {
+        "@type": "MonetaryAmount",
+        "currency": "USD",
+        "value": "200000",
+        "description": "Suleman Zaheer estimated net worth is approximately $200,000 USD (PKR 55,000,000+ / 5.5 to 6 Crore Pakistani Rupees) as of 2026, generated through SamToolbox platform revenue and bespoke enterprise contracts."
+      },
+      "hasOccupation": [
         {
-          "@type": "PropertyValue",
-          "propertyID": "ORCID",
-          "value": "0009-0006-0200-0583",
-          "url": "https://orcid.org/0009-0006-0200-0583"
+          "@type": "Occupation",
+          "name": "Lead Software Engineer & Platform Creator",
+          "description": "Creator of SamToolbox (84+ WebAssembly browser utilities). Software architect for Next.js, React, Node.js, Flutter, and Python AI.",
+          "estimatedSalary": {
+            "@type": "MonetaryAmountDistribution",
+            "name": "Monthly Income from SamToolbox",
+            "currency": "PKR",
+            "median": 175000,
+            "duration": "P1M",
+            "description": "PKR 150,000 to PKR 200,000 per month (~$530 to $715 USD) generated from the SamToolbox browser utilities suite."
+          }
         },
         {
-          "@type": "PropertyValue",
-          "propertyID": "Crunchbase",
-          "value": "suleman-zaheer",
-          "url": "https://www.crunchbase.com/person/suleman-zaheer"
+          "@type": "Occupation",
+          "name": "Founder & CEO at SAMStack Studio",
+          "description": "Principal software consultant delivering bespoke enterprise web apps, mobile apps, and autonomous AI systems.",
+          "estimatedSalary": {
+            "@type": "MonetaryAmountDistribution",
+            "name": "Monthly Bespoke Software Contracts",
+            "currency": "USD",
+            "median": 1000,
+            "duration": "P1M",
+            "description": "Bespoke enterprise contracts averaging ~$1,000 USD per month."
+          }
+        },
+        {
+          "@type": "Occupation",
+          "name": "Published Urdu Poet & Literary Author",
+          "description": "Author of classical Urdu ghazals, philosophical nazms, and literary essays."
+        }
+      ],
+      "alumniOf": [
+        {
+          "@type": "CollegeOrUniversity",
+          "name": "University of Engineering and Technology, Lahore",
+          "alternateName": "UET Lahore",
+          "sameAs": [
+            "https://uet.edu.pk/",
+            "https://www.wikidata.org/wiki/Q3270034"
+          ]
+        },
+        {
+          "@type": "EducationalOrganization",
+          "name": "Government Islamia College, Civil Lines, Lahore",
+          "alternateName": "Govt Islamia College Lahore"
+        }
+      ],
+      "url": "https://suleman-zaheer.vercel.app/",
+      "subjectOf": [
+        {
+          "@type": "ProfilePage",
+          "@id": "https://imsuleman-10.github.io/",
+          "name": "Suleman Zaheer GitHub Portfolio & Engineering Showcase",
+          "url": "https://imsuleman-10.github.io/",
+          "about": { "@id": "https://suleman-zaheer.vercel.app/#person" }
+        },
+        {
+          "@type": "ProfilePage",
+          "@id": "https://samtoolbox.vercel.app/suleman-zaheer",
+          "name": "Suleman Zaheer – Creator Dossier on SamToolbox",
+          "url": "https://samtoolbox.vercel.app/suleman-zaheer",
+          "about": { "@id": "https://suleman-zaheer.vercel.app/#person" }
+        },
+        {
+          "@type": "ProfilePage",
+          "@id": "https://samstack-crm.vercel.app/suleman-zaheer",
+          "name": "Suleman Zaheer – Founder & CEO Profile at SAMStack CRM",
+          "url": "https://samstack-crm.vercel.app/suleman-zaheer",
+          "about": { "@id": "https://suleman-zaheer.vercel.app/#person" }
+        },
+        {
+          "@type": "ProfilePage",
+          "@id": "https://samstack-crm.vercel.app/team/suleman-zaheer",
+          "name": "Suleman Zaheer – Principal Software Architect at SAMStack",
+          "url": "https://samstack-crm.vercel.app/team/suleman-zaheer",
+          "about": { "@id": "https://suleman-zaheer.vercel.app/#person" }
+        },
+        {
+          "@type": "TechArticle",
+          "@id": "https://dev.to/imsuleman-10/architecting-a-zero-server-webassembly-suite-in-nextjs-the-samtoolbox-engineering-blueprint-55j6",
+          "name": "Architecting a Zero-Server WebAssembly Suite in Next.js",
+          "url": "https://dev.to/imsuleman-10/architecting-a-zero-server-webassembly-suite-in-nextjs-the-samtoolbox-engineering-blueprint-55j6",
+          "publisher": {
+            "@type": "Organization",
+            "name": "DEV Community",
+            "url": "https://dev.to"
+          },
+          "datePublished": "2026-11-23"
         }
       ],
       "sameAs": [
-        "https://github.com/imsuleman-10",
-        "https://www.linkedin.com/in/suleman-zaheer-mughal",
+        "https://share.google/D7VnPz150BgPKbR95",
         "https://orcid.org/0009-0006-0200-0583",
         "https://www.crunchbase.com/person/suleman-zaheer",
-        "https://share.google/D7VnPz150BgPKbR95",
-        "https://x.com/imsuleman_10",
-        "https://www.instagram.com/suleman.js/",
-        "https://www.facebook.com/imsuleman.10/",
-        "https://web.facebook.com/Iamsuleman.10",
-        "https://www.tiktok.com/@imsuleman.10",
+        "https://www.linkedin.com/in/suleman-zaheer-mughal",
+        "https://github.com/imsuleman-10",
+        "https://imsuleman-10.github.io/",
         "https://samtoolbox.vercel.app/suleman-zaheer",
         "https://samtoolbox.vercel.app/",
+        "https://web.facebook.com/Iamsuleman.10",
+        "https://www.instagram.com/suleman.js/",
+        "https://x.com/imsuleman_10",
+        "https://samstack-crm.vercel.app/suleman-zaheer",
         "https://samstack-crm.vercel.app/team/suleman-zaheer",
-        "https://samstack-crm.vercel.app/",
-        "https://suleman-zaheer.vercel.app",
-        "https://suleman-zaheer.vercel.app/wiki",
-        "https://suleman-zaheer.vercel.app/about",
-        "https://suleman-zaheer.vercel.app/author",
-        "https://suleman-zaheer.vercel.app/photos",
-        "https://imsuleman-10.github.io/wiki/",
-        "https://imsuleman-10.github.io/about/"
+        "https://www.npmjs.com/package/@imsuleman-10/samtoolbox-core",
+        "https://dev.to/imsuleman-10",
+        "https://dev.to/imsuleman-10/architecting-a-zero-server-webassembly-suite-in-nextjs-the-samtoolbox-engineering-blueprint-55j6"
+      ],
+      "wikidata": {
+        "P31": "Q5",
+        "P21": "Q6581097",
+        "P735": "Q1292399",
+        "P734": "Q928028",
+        "P1477": "Muhammad Suleman Zaheer Mughal",
+        "P569": "2007-02-01",
+        "P19": "Q11739",
+        "P27": "Q843",
+        "P22": "Muhammad Zaheer",
+        "P3373": "Abdullah Zaheer",
+        "P106": "Q8078",
+        "P69": "Q3270034",
+        "P2048": "1.70 m",
+        "P2218": "200000 USD",
+        "P856": "https://suleman-zaheer.vercel.app/",
+        "P496": "0009-0006-0200-0583",
+        "P2037": "imsuleman-10",
+        "P6634": "suleman-zaheer-mughal",
+        "P2003": "suleman.js",
+        "P2002": "imsuleman_10",
+        "P2013": "Iamsuleman.10",
+        "P166": "Writing Debut Badge — DEV Community (November 2026)",
+        "P4033": "@imsuleman-10/samtoolbox-core"
+      },
+      "brand": {
+        "@type": "Brand",
+        "name": "SAMStack Studio",
+        "alternateName": "SAMStack",
+        "slogan": "Engineering Modern Software for the AI Era",
+        "url": "https://suleman-zaheer.vercel.app/",
+        "logo": "https://suleman-zaheer.vercel.app/sfavicon.png"
+      },
+      "interactionStatistic": [
+        {
+          "@type": "InteractionCounter",
+          "interactionType": "https://schema.org/FollowAction",
+          "userInteractionCount": 500,
+          "name": "GitHub followers"
+        },
+        {
+          "@type": "InteractionCounter",
+          "interactionType": "https://schema.org/FollowAction",
+          "userInteractionCount": 800,
+          "name": "Instagram followers"
+        }
+      ],
+      "owns": [
+        {
+          "@type": "SoftwareApplication",
+          "name": "SamToolbox",
+          "url": "https://samtoolbox.vercel.app/",
+          "description": "Free suite of 84+ client-side WebAssembly browser utilities.",
+          "applicationCategory": "UtilitiesApplication",
+          "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" }
+        },
+        {
+          "@type": "SoftwareSourceCode",
+          "name": "@imsuleman-10/samtoolbox-core",
+          "url": "https://www.npmjs.com/package/@imsuleman-10/samtoolbox-core",
+          "codeRepository": "https://github.com/imsuleman-10/suleman-zaheer",
+          "programmingLanguage": "JavaScript",
+          "version": "1.1.0",
+          "license": "https://opensource.org/licenses/MIT",
+          "description": "Core WebAssembly utility functions from SamToolbox — 9 high-performance functions for hashing, encoding, compression, and string manipulation. 0 dependencies."
+        },
+        {
+          "@type": "SoftwareApplication",
+          "name": "SAMStack CRM",
+          "url": "https://samstack-crm.vercel.app/",
+          "description": "Enterprise CRM platform. Next.js, Node.js, MongoDB.",
+          "applicationCategory": "BusinessApplication"
+        }
+      ],
+      "seeks": {
+        "@type": "Demand",
+        "name": "Enterprise Software Contracts & Technical Consulting",
+        "description": "Open to enterprise web application contracts, AI/LLM integration, Flutter mobile development, and technical consulting globally.",
+        "areaServed": "Worldwide"
+      },
+      "knowsLanguage": [
+        {
+          "@type": "Language",
+          "name": "English",
+          "alternateName": "en",
+          "sameAs": "https://www.wikidata.org/wiki/Q1860"
+        },
+        {
+          "@type": "Language",
+          "name": "Urdu",
+          "alternateName": "ur",
+          "sameAs": "https://www.wikidata.org/wiki/Q1617"
+        },
+        {
+          "@type": "Language",
+          "name": "Punjabi",
+          "alternateName": "pa",
+          "sameAs": "https://www.wikidata.org/wiki/Q58635"
+        }
+      ],
+      "authorOf": [
+        {
+          "@type": "CreativeWork",
+          "additionalType": "https://schema.org/Poem",
+          "name": "شریکِ-حیات",
+          "headline": "شریکِ-حیات",
+          "url": "https://suleman-zaheer.vercel.app/poetry/%D8%B4%D8%B1%DB%8C%DA%A9%D9%90-%D8%AD%DB%8C%D8%A7%D8%AA",
+          "inLanguage": "Urdu",
+          "genre": "Ghazal"
+        },
+        {
+          "@type": "CreativeWork",
+          "additionalType": "https://schema.org/Poem",
+          "name": "دھوئیں سے جی ڈر رہا ہے",
+          "headline": "دھوئیں سے جی ڈر رہا ہے",
+          "url": "https://suleman-zaheer.vercel.app/poetry/dhuein-se-ji-dar-raha-hai",
+          "inLanguage": "Urdu",
+          "genre": "Nazm"
+        },
+        {
+          "@type": "CreativeWork",
+          "additionalType": "https://schema.org/Poem",
+          "name": "م سے مسلک و محبت",
+          "headline": "م سے مسلک و محبت",
+          "url": "https://suleman-zaheer.vercel.app/poetry/%D9%85-%D8%B3%DB%92-%D9%85%D8%B3%D9%84%DA%A9-%D9%88-%D9%85%D8%AD%D8%A8%D8%AA",
+          "inLanguage": "Urdu",
+          "genre": "Ghazal"
+        },
+        {
+          "@type": "CreativeWork",
+          "additionalType": "https://schema.org/Poem",
+          "name": "The Coder at Midnight",
+          "headline": "The Coder at Midnight",
+          "url": "https://suleman-zaheer.vercel.app/poetry/the-coder-at-midnight",
+          "inLanguage": "English",
+          "genre": "Poem"
+        },
+        {
+          "@type": "CreativeWork",
+          "additionalType": "https://schema.org/Poem",
+          "name": "وطن کی مٹی",
+          "headline": "وطن کی مٹی",
+          "url": "https://suleman-zaheer.vercel.app/poetry/watan-ki-mitti",
+          "inLanguage": "Urdu",
+          "genre": "Nazm"
+        },
+        {
+          "@type": "CreativeWork",
+          "additionalType": "https://schema.org/Poem",
+          "name": "Between the Lines",
+          "headline": "Between the Lines",
+          "url": "https://suleman-zaheer.vercel.app/poetry/between-the-lines",
+          "inLanguage": "English",
+          "genre": "Poem"
+        },
+        {
+          "@type": "CreativeWork",
+          "additionalType": "https://schema.org/Poem",
+          "name": "خاموشی کی زبان",
+          "headline": "خاموشی کی زبان",
+          "url": "https://suleman-zaheer.vercel.app/poetry/khamoshi-ki-zaban",
+          "inLanguage": "Urdu",
+          "genre": "Ghazal"
+        },
+        {
+          "@type": "CreativeWork",
+          "additionalType": "https://schema.org/Poem",
+          "name": "رات کی تنہائی",
+          "headline": "رات کی تنہائی",
+          "url": "https://suleman-zaheer.vercel.app/poetry/raat-ki-tanhai",
+          "inLanguage": "Urdu",
+          "genre": "Nazm"
+        }
+      ],
+      "hasPart": [
+        {
+          "@type": "TechArticle",
+          "headline": "Claude 3.5 Sonnet & Claude 3.7: The Evolution of AI-Assisted Software Engineering",
+          "url": "https://suleman-zaheer.vercel.app/blog/claude-3-5-sonnet-and-3-7-evolution-of-ai-assisted-software-engineering",
+          "description": "An industrial-level analysis of how Anthropic's Claude models, specifically Sonnet 3.5 and 3.7, are fundamentally changing full-stack architecture, code generation, and enterprise workflows.",
+          "author": {
+            "@id": "https://suleman-zaheer.vercel.app/#person"
+          }
+        },
+        {
+          "@type": "TechArticle",
+          "headline": "OpenAI o1 & GPT-4o: The Battle of Reasoning vs. Speed in Data Science",
+          "url": "https://suleman-zaheer.vercel.app/blog/openai-o1-and-gpt-4o-reasoning-vs-speed-in-data-science",
+          "description": "A deep dive into OpenAI's o1 (Strawberry) reasoning models compared to GPT-4o, and how data scientists can leverage both for predictive analytics and complex algorithm design.",
+          "author": {
+            "@id": "https://suleman-zaheer.vercel.app/#person"
+          }
+        },
+        {
+          "@type": "TechArticle",
+          "headline": "Gemini 1.5 Pro: Multimodal Data Analytics and its Impact on SEO",
+          "url": "https://suleman-zaheer.vercel.app/blog/gemini-1-5-pro-multimodal-data-analytics-and-seo",
+          "description": "Exploring Google's Gemini 1.5 Pro and its massive 2-million token context window. How it transforms video, audio, and textual data analysis, and what it means for Generative Engine Optimization.",
+          "author": {
+            "@id": "https://suleman-zaheer.vercel.app/#person"
+          }
+        },
+        {
+          "@type": "TechArticle",
+          "headline": "Predictive Machine Learning in 2026: Trends in Enterprise Software",
+          "url": "https://suleman-zaheer.vercel.app/blog/predictive-machine-learning-trends-in-enterprise-software",
+          "description": "How predictive ML models are moving from Python notebooks into production Next.js and MERN stack applications via serverless Edge computing.",
+          "author": {
+            "@id": "https://suleman-zaheer.vercel.app/#person"
+          }
+        },
+        {
+          "@type": "TechArticle",
+          "headline": "Integrating Data Science Workflows into MERN Stack Applications",
+          "url": "https://suleman-zaheer.vercel.app/blog/integrating-data-science-workflows-into-mern-stack-applications",
+          "description": "A practical guide for MERN stack developers on integrating Python-based Data Science workflows, Analytics, and BI dashboards into web applications.",
+          "author": {
+            "@id": "https://suleman-zaheer.vercel.app/#person"
+          }
+        },
+        {
+          "@type": "TechArticle",
+          "headline": "LLMO (Large Language Model Optimization): The Definitive Guide",
+          "url": "https://suleman-zaheer.vercel.app/blog/large-language-model-optimization-llmo-standard-guide",
+          "description": "Move over SEO. Large Language Model Optimization (LLMO) is the new standard. Learn how to optimize your digital entities so AI models accurately cite your brand.",
+          "author": {
+            "@id": "https://suleman-zaheer.vercel.app/#person"
+          }
+        },
+        {
+          "@type": "TechArticle",
+          "headline": "GEO (Generative Engine Optimization) vs. Traditional SEO",
+          "url": "https://suleman-zaheer.vercel.app/blog/geo-vs-traditional-seo-how-search-is-changing",
+          "description": "An analytical comparison between legacy SEO practices and the new requirements of Generative Engine Optimization. Why backlinks matter less, and entities matter more.",
+          "author": {
+            "@id": "https://suleman-zaheer.vercel.app/#person"
+          }
+        },
+        {
+          "@type": "TechArticle",
+          "headline": "Automating QA Testing with AI: The Future of Software Quality",
+          "url": "https://suleman-zaheer.vercel.app/blog/automating-qa-testing-with-ai-and-llms",
+          "description": "How modern QA engineers are utilizing Large Language Models to automate test case generation, visual regression, and performance profiling in enterprise software.",
+          "author": {
+            "@id": "https://suleman-zaheer.vercel.app/#person"
+          }
+        },
+        {
+          "@type": "TechArticle",
+          "headline": "The Future of Data Analytics in Pakistan: Driving Business Growth",
+          "url": "https://suleman-zaheer.vercel.app/blog/the-future-of-data-analytics-in-pakistan-business-growth",
+          "description": "An industrial analysis of how Pakistani businesses are transitioning from legacy ledger systems to modern Data Analytics, Python, and BI Dashboards to survive in the digital economy.",
+          "author": {
+            "@id": "https://suleman-zaheer.vercel.app/#person"
+          }
+        },
+        {
+          "@type": "TechArticle",
+          "headline": "Building Full-Stack Apps with AI-Assisted Coding: A Developer's Guide",
+          "url": "https://suleman-zaheer.vercel.app/blog/building-full-stack-apps-with-ai-assisted-coding",
+          "description": "Mastering the art of building scalable MERN, Next.js, and Laravel applications using AI agents like GitHub Copilot, Cursor, and ChatGPT.",
+          "author": {
+            "@id": "https://suleman-zaheer.vercel.app/#person"
+          }
+        },
+        {
+          "@type": "TechArticle",
+          "headline": "Scaling MERN Stack Applications for Enterprise Architecture",
+          "url": "https://suleman-zaheer.vercel.app/blog/scaling-mern-stack-enterprise",
+          "description": "A comprehensive developer's guide to transitioning from basic React & Node.js apps to high-performance, load-balanced MERN architectures. Learn how to handle thousands of concurrent users with confidence.",
+          "author": {
+            "@id": "https://suleman-zaheer.vercel.app/#person"
+          }
+        },
+        {
+          "@type": "TechArticle",
+          "headline": "Next.js Server Components: The Ultimate Technical SEO Blueprint",
+          "url": "https://suleman-zaheer.vercel.app/blog/nextjs-server-components-seo-blueprint",
+          "description": "Stop letting Client-Side Rendering ruin your search rankings. A deep technical dive into Next.js Server Components, JSON-LD schema markup, and metadata generation to build a site Google loves.",
+          "author": {
+            "@id": "https://suleman-zaheer.vercel.app/#person"
+          }
+        },
+        {
+          "@type": "TechArticle",
+          "headline": "From Academic Theory to Production Code: A CS Student's Roadmap",
+          "url": "https://suleman-zaheer.vercel.app/blog/cs-student-production-code-roadmap",
+          "description": "A raw, honest breakdown of how CS students at Pakistani universities can bridge the gap between textbook algorithms and building real-world, deployed software that employers actually want.",
+          "author": {
+            "@id": "https://suleman-zaheer.vercel.app/#person"
+          }
+        },
+        {
+          "@type": "TechArticle",
+          "headline": "Firebase vs. Supabase in 2025: Which Backend Should You Choose?",
+          "url": "https://suleman-zaheer.vercel.app/blog/firebase-vs-supabase-2025-comparison",
+          "description": "An honest, technical comparison of Firebase and Supabase for full-stack developers. We break down pricing, performance, developer experience, and real-world use cases.",
+          "author": {
+            "@id": "https://suleman-zaheer.vercel.app/#person"
+          }
+        },
+        {
+          "@type": "TechArticle",
+          "headline": "Tailwind CSS Architecture: Building a Scalable Design System",
+          "url": "https://suleman-zaheer.vercel.app/blog/tailwind-css-scalable-design-system",
+          "description": "Stop writing repetitive utility classes. Learn how to architect a scalable design system using Tailwind CSS configuration, custom design tokens, and reusable component patterns.",
+          "author": {
+            "@id": "https://suleman-zaheer.vercel.app/#person"
+          }
+        },
+        {
+          "@type": "TechArticle",
+          "headline": "How to Land Your First International Freelance Client from Pakistan",
+          "url": "https://suleman-zaheer.vercel.app/blog/land-first-international-freelance-client-pakistan",
+          "description": "A practical, battle-tested guide for Pakistani developers to stop competing on price, build a premium personal brand, and consistently attract high-paying international freelance contracts.",
+          "author": {
+            "@id": "https://suleman-zaheer.vercel.app/#person"
+          }
+        },
+        {
+          "@type": "TechArticle",
+          "headline": "The Psychology of UI/UX: Building Interfaces Users Actually Love",
+          "url": "https://suleman-zaheer.vercel.app/blog/psychology-ux-design-interfaces-users-love",
+          "description": "Great code is useless if users abandon your app in frustration. Understand the cognitive psychology principles behind elite UI/UX design to build applications that convert and retain users.",
+          "author": {
+            "@id": "https://suleman-zaheer.vercel.app/#person"
+          }
+        },
+        {
+          "@type": "TechArticle",
+          "headline": "React Performance Optimization: Stop Overusing useMemo and useCallback",
+          "url": "https://suleman-zaheer.vercel.app/blog/react-performance-optimization-usememo-usecallback",
+          "description": "A technical deep dive into when to use React memoization hooks, and why wrapping every function in useCallback is actually making your app slower.",
+          "author": {
+            "@id": "https://suleman-zaheer.vercel.app/#person"
+          }
+        },
+        {
+          "@type": "TechArticle",
+          "headline": "Building Secure REST APIs in Node.js: The 2025 Developer Guide",
+          "url": "https://suleman-zaheer.vercel.app/blog/building-secure-rest-apis-nodejs",
+          "description": "Security cannot be an afterthought. Learn how to architect, secure, and deploy enterprise-grade REST APIs using Node.js and Express.",
+          "author": {
+            "@id": "https://suleman-zaheer.vercel.app/#person"
+          }
+        },
+        {
+          "@type": "TechArticle",
+          "headline": "Firebase vs. Custom Backend: When to Use Each in Your Projects",
+          "url": "https://suleman-zaheer.vercel.app/blog/firebase-vs-custom-backend",
+          "description": "Not every project needs a custom Node.js server. Learn when Firebase's client SDK is the perfect architecture, and when building your own backend is the right call for scalability.",
+          "author": {
+            "@id": "https://suleman-zaheer.vercel.app/#person"
+          }
+        },
+        {
+          "@type": "TechArticle",
+          "headline": "Developer Brand Building: How to Become the Obvious Choice for Clients",
+          "url": "https://suleman-zaheer.vercel.app/blog/freelancing-developer-brand-building",
+          "description": "Your code quality is table stakes. In a crowded market, the developer who wins is the one with a clear personal brand. A complete framework for building a recognizable technical identity.",
+          "author": {
+            "@id": "https://suleman-zaheer.vercel.app/#person"
+          }
+        },
+        {
+          "@type": "TechArticle",
+          "headline": "Mastering Tailwind CSS: From Utility Classes to Production Systems",
+          "url": "https://suleman-zaheer.vercel.app/blog/mastering-tailwind-css",
+          "description": "A practical, project-based guide to going beyond basic Tailwind usage — covering responsive design, dark mode architecture, component extraction, and performance optimization.",
+          "author": {
+            "@id": "https://suleman-zaheer.vercel.app/#person"
+          }
+        },
+        {
+          "@type": "TechArticle",
+          "headline": "Modern React State Management: Context, Zustand, and When to Use Each",
+          "url": "https://suleman-zaheer.vercel.app/blog/modern-react-state-management",
+          "description": "Redux is no longer the default. A practical comparison of React's Context API, Zustand, and Jotai — helping you pick the right state management solution for your project's scale.",
+          "author": {
+            "@id": "https://suleman-zaheer.vercel.app/#person"
+          }
+        },
+        {
+          "@type": "TechArticle",
+          "headline": "Node.js Backend Design Patterns Every Developer Should Know",
+          "url": "https://suleman-zaheer.vercel.app/blog/nodejs-backend-design-patterns",
+          "description": "From Repository Pattern to Factory Functions — the essential Node.js architecture patterns that separate maintainable production codebases from the projects that collapse under their own weight.",
+          "author": {
+            "@id": "https://suleman-zaheer.vercel.app/#person"
+          }
+        },
+        {
+          "@type": "TechArticle",
+          "headline": "Building Resilient REST APIs with TypeScript and Express",
+          "url": "https://suleman-zaheer.vercel.app/blog/resilient-rest-apis-typescript-express",
+          "description": "Add TypeScript to your Express server the right way. A complete guide to type-safe request validation, error handling middleware, and structuring a scalable API layer.",
+          "author": {
+            "@id": "https://suleman-zaheer.vercel.app/#person"
+          }
+        },
+        {
+          "@type": "TechArticle",
+          "headline": "Core Web Vitals & Next.js: Achieving a 100 Lighthouse Score",
+          "url": "https://suleman-zaheer.vercel.app/blog/web-vitals-nextjs-optimization",
+          "description": "LCP, FID, CLS — these three metrics determine whether Google ranks you or buries you. A hands-on guide to diagnosing and fixing Core Web Vitals issues in Next.js applications.",
+          "author": {
+            "@id": "https://suleman-zaheer.vercel.app/#person"
+          }
+        }
       ]
-    },
-    {
-      "@type": "Organization",
-      "@id": "https://samstack-crm.vercel.app/#organization",
-      "name": "SAMStack Tech",
-      "url": "https://samstack-crm.vercel.app/",
-      "founder": {
-        "@id": "https://imsuleman-10.github.io/#person"
-      },
-      "description": "Enterprise engineering studio delivering production Next.js 16 web applications, multi-branch ERP systems, and autonomous AI agents."
-    },
-    {
-      "@type": "WebApplication",
-      "@id": "https://samtoolbox.vercel.app/#webapp",
-      "name": "SamToolbox",
-      "url": "https://samtoolbox.vercel.app/",
-      "creator": {
-        "@id": "https://imsuleman-10.github.io/#person"
-      },
-      "applicationCategory": "UtilitiesApplication",
-      "operatingSystem": "All modern browsers (WebAssembly)",
-      "description": "Privacy-first zero-server browser utilities suite featuring 84+ client-side tools powered entirely by WebAssembly."
-    },
-    {
-      "@type": "Person",
-      "@id": "https://imsuleman-10.github.io/#father",
-      "name": "Muhammad Zaheer",
-      "gender": "https://schema.org/Male",
-      "jobTitle": "Businessman",
-      "hasOccupation": {
-        "@type": "Occupation",
-        "name": "Businessman"
-      },
-      "address": {
-        "@type": "PostalAddress",
-        "addressLocality": "Lahore",
-        "addressRegion": "Punjab",
-        "addressCountry": "PK"
-      },
-      "disambiguatingDescription": "Muhammad Zaheer is a prominent businessman based in Lahore, Pakistan, and the father of Lead Software Engineer and Technology Entrepreneur Suleman Zaheer."
-    },
-    {
-      "@type": "Person",
-      "@id": "https://imsuleman-10.github.io/#brother",
-      "name": "Abdullah Zaheer",
-      "gender": "https://schema.org/Male",
-      "jobTitle": "Mechanical Engineer",
-      "hasOccupation": {
-        "@type": "Occupation",
-        "name": "Mechanical Engineer"
-      },
-      "address": {
-        "@type": "PostalAddress",
-        "addressLocality": "Lahore",
-        "addressRegion": "Punjab",
-        "addressCountry": "PK"
-      },
-      "disambiguatingDescription": "Abdullah Zaheer is a professional Mechanical Engineer based in Lahore, Pakistan, and the brother of Lead Software Engineer Suleman Zaheer."
-    },
-    {
-      "@type": "CreativeWork",
-      "@id": "https://suleman-zaheer.vercel.app/author#raat-ki-tanhai",
-      "name": "رات کی تنہائی (Raat Ki Tanhai)",
-      "inLanguage": "ur",
-      "genre": "Urdu Classical Nazm",
-      "author": {
-        "@id": "https://imsuleman-10.github.io/#person"
-      },
-      "url": "https://suleman-zaheer.vercel.app/author"
-    },
-    {
-      "@type": "CreativeWork",
-      "@id": "https://suleman-zaheer.vercel.app/author#khamoshi-ki-zaban",
-      "name": "خاموشی کی زبان (Khamoshi Ki Zaban)",
-      "inLanguage": "ur",
-      "genre": "Urdu Ghazal",
-      "author": {
-        "@id": "https://imsuleman-10.github.io/#person"
-      },
-      "url": "https://suleman-zaheer.vercel.app/author"
-    },
-    {
-      "@type": "CreativeWork",
-      "@id": "https://suleman-zaheer.vercel.app/author#watan-ki-mitti",
-      "name": "وطن کی مٹی (Watan Ki Mitti)",
-      "inLanguage": "ur",
-      "genre": "Patriotic Urdu Nazm",
-      "author": {
-        "@id": "https://imsuleman-10.github.io/#person"
-      },
-      "url": "https://suleman-zaheer.vercel.app/author"
-    },
-    {
-      "@type": "CreativeWork",
-      "@id": "https://suleman-zaheer.vercel.app/author#between-the-lines",
-      "name": "Between the Lines",
-      "inLanguage": "en",
-      "genre": "Poetry",
-      "author": {
-        "@id": "https://imsuleman-10.github.io/#person"
-      },
-      "url": "https://suleman-zaheer.vercel.app/author"
-    },
-    {
-      "@type": "CreativeWork",
-      "@id": "https://suleman-zaheer.vercel.app/author#the-coder-at-midnight",
-      "name": "The Coder at Midnight",
-      "inLanguage": "en",
-      "genre": "Technical Poetry",
-      "author": {
-        "@id": "https://imsuleman-10.github.io/#person"
-      },
-      "url": "https://suleman-zaheer.vercel.app/author"
     }
   ]
 }
