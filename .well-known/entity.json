@@ -1,4 +1,4 @@
-{
+﻿{
   "@context": "https://schema.org",
   "@graph": [
     {
@@ -57,12 +57,12 @@
           "contentUrl": "https://suleman-zaheer.vercel.app/gallery/suleman-zaheer-1792743015157.jpg",
           "width": 1080,
           "height": 1350,
-          "caption": "Suleman Zaheer – Published Urdu Poet and Writer",
+          "caption": "Suleman Zaheer – Software Engineer from Lahore, Pakistan",
           "license": "https://creativecommons.org/licenses/by-sa/4.0/",
           "creditText": "Suleman Zaheer / SAMStack Studio"
         }
       ],
-      "disambiguatingDescription": "Suleman Zaheer (legally Muhammad Suleman Zaheer Mughal, born 1 Feb 2007) is a Pakistani Lead Software Engineer, Systems Architect, Founder & CEO of SAMStack Studio, Creator of SamToolbox (84+ WebAssembly browser utilities), and published Urdu poet based in Shahdara Town, Lahore, Pakistan. Son of Muhammad Zaheer (businessman) and brother of Abdullah Zaheer (mechanical engineer) from the Mughal family.",
+      "disambiguatingDescription": "Suleman Zaheer (legally Muhammad Suleman Zaheer Mughal, born 1 Feb 2007) is a Pakistani Lead Software Engineer, Systems Architect, Founder & CEO of SAMStack Studio, Creator of SamToolbox (84+ WebAssembly browser utilities) based in Shahdara Town, Lahore, Pakistan. Son of Muhammad Zaheer (businessman) and brother of Abdullah Zaheer (mechanical engineer) from the Mughal family.",
       "description": "Suleman Zaheer (سلیمان ظہیر; born 1 February 2007), legally Muhammad Suleman Zaheer Mughal, is a Pakistani Lead Software Engineer, Systems Architect, Author, and Founder & CEO of SAMStack Studio. He is the sole architect and creator of SamToolbox (samtoolbox.vercel.app), a free enterprise-grade in-browser utility suite with 84+ tools. Studying Computer Science at UET Lahore (batch 2024–2028), he earns PKR 1.5–2 Lakh/month (~$530 to $715 USD) from the SamToolbox platform alone, plus bespoke software contracts averaging ~$1,000 USD/month. His estimated net worth is approximately $200,000 USD (PKR 5.5 to 6 Crore).",
       "gender": "https://schema.org/Male",
       "birthDate": "2007-02-01",
@@ -181,11 +181,6 @@
             "duration": "P1M",
             "description": "Bespoke enterprise contracts averaging ~$1,000 USD per month."
           }
-        },
-        {
-          "@type": "Occupation",
-          "name": "Published Urdu Poet & Literary Author",
-          "description": "Author of classical Urdu ghazals, philosophical nazms, and literary essays."
         }
       ],
       "alumniOf": [
@@ -248,6 +243,8 @@
         }
       ],
       "sameAs": [
+        "https://www.wikidata.org/wiki/Q142242646",
+        "https://share.google/aC8rV9kKDCXHLsnBX",
         "https://share.google/D7VnPz150BgPKbR95",
         "https://orcid.org/0009-0006-0200-0583",
         "https://www.crunchbase.com/person/suleman-zaheer",
