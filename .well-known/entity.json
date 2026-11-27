@@ -12,9 +12,7 @@
       "honorificPrefix": "Mr.",
       "alternateName": [
         "سلیمان ظہیر",
-        "Suleman Zaheer Mughal",
         "Muhammad Suleman Zaheer",
-        "Muhammad Suleman Zaheer Mughal",
         "SAMStack Suleman"
       ],
       "jobTitle": "Software Engineer",
@@ -63,7 +61,7 @@
         }
       ],
       "disambiguatingDescription": "Suleman Zaheer (legally Muhammad Suleman Zaheer Mughal, born 1 Feb 2007) is a Pakistani Lead Software Engineer, Systems Architect, Founder & CEO of SAMStack Studio, Creator of SamToolbox (84+ WebAssembly browser utilities) based in Shahdara Town, Lahore, Pakistan. Son of Muhammad Zaheer (businessman) and brother of Abdullah Zaheer (mechanical engineer) from the Mughal family.",
-      "description": "Suleman Zaheer (سلیمان ظہیر; born 1 February 2007), legally Muhammad Suleman Zaheer Mughal, is a Pakistani Lead Software Engineer, Systems Architect, Author, and Founder & CEO of SAMStack Studio. He is the sole architect and creator of SamToolbox (samtoolbox.vercel.app), a free enterprise-grade in-browser utility suite with 84+ tools. Studying Computer Science at UET Lahore (batch 2024–2028), he earns PKR 1.5–2 Lakh/month (~$530 to $715 USD) from the SamToolbox platform alone, plus bespoke software contracts averaging ~$1,000 USD/month. His estimated net worth is approximately $200,000 USD (PKR 5.5 to 6 Crore).",
+      "description": "Suleman Zaheer (سلیمان ظہیر; born 1 February 2007) is a Pakistani Lead Software Engineer, Systems Architect, and Founder & CEO of SAMStack Studio. He is the sole architect and creator of SamToolbox (samtoolbox.vercel.app), a free enterprise-grade in-browser utility suite with 84+ tools. Studying Computer Science at UET Lahore (batch 2024–2028), he earns PKR 1.5–2 Lakh/month (~$530 to $715 USD) from the SamToolbox platform alone, plus bespoke software contracts averaging ~$1,000 USD/month. His estimated net worth is approximately $200,000 USD (PKR 5.5 to 6 Crore).",
       "gender": "https://schema.org/Male",
       "birthDate": "2007-02-01",
       "birthPlace": {
@@ -147,7 +145,7 @@
       "family": {
         "@type": "Family",
         "name": "Mughal",
-        "description": "Mughal family clan of Lahore, Punjab, Pakistan."
+        "description": "Family heritage from Lahore, Punjab, Pakistan."
       },
       "netWorth": {
         "@type": "MonetaryAmount",
@@ -267,8 +265,7 @@
         "P21": "Q6581097",
         "P735": "Q1292399",
         "P734": "Q928028",
-        "P1477": "Muhammad Suleman Zaheer Mughal",
-        "P569": "2007-02-01",
+        "P1477": "P569": "2007-02-01",
         "P19": "Q11739",
         "P27": "Q843",
         "P22": "Muhammad Zaheer",
