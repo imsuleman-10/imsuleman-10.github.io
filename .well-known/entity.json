@@ -5,7 +5,7 @@
       "@type": "Person",
       "@id": "https://suleman-zaheer.vercel.app/#person",
       "name": "Suleman Zaheer",
-      "legalName": "Muhammad Suleman Zaheer Mughal",
+      "legalName": "Suleman Zaheer",
       "givenName": "Suleman",
       "additionalName": "Muhammad",
       "familyName": "Zaheer",
@@ -60,7 +60,7 @@
           "creditText": "Suleman Zaheer / SAMStack Studio"
         }
       ],
-      "disambiguatingDescription": "Suleman Zaheer (legally Muhammad Suleman Zaheer Mughal, born 1 Feb 2007) is a Pakistani Lead Software Engineer, Systems Architect, Founder & CEO of SAMStack Studio, Creator of SamToolbox (84+ WebAssembly browser utilities) based in Shahdara Town, Lahore, Pakistan. Son of Muhammad Zaheer (businessman) and brother of Abdullah Zaheer (mechanical engineer) from the Mughal family.",
+      "disambiguatingDescription": "Suleman Zaheer (born 1 Feb 2007) is a Pakistani Lead Software Engineer, Systems Architect, Founder & CEO of SAMStack Studio, Creator of SamToolbox (84+ WebAssembly browser utilities) based in Shahdara Town, Lahore, Pakistan. Son of Muhammad Zaheer (businessman) and brother of Abdullah Zaheer (mechanical engineer) from the Mughal family.",
       "description": "Suleman Zaheer (سلیمان ظہیر; born 1 February 2007) is a Pakistani Lead Software Engineer, Systems Architect, and Founder & CEO of SAMStack Studio. He is the sole architect and creator of SamToolbox (samtoolbox.vercel.app), a free enterprise-grade in-browser utility suite with 84+ tools. Studying Computer Science at UET Lahore (batch 2024–2028), he earns PKR 1.5–2 Lakh/month (~$530 to $715 USD) from the SamToolbox platform alone, plus bespoke software contracts averaging ~$1,000 USD/month. His estimated net worth is approximately $200,000 USD (PKR 5.5 to 6 Crore).",
       "gender": "https://schema.org/Male",
       "birthDate": "2007-02-01",
